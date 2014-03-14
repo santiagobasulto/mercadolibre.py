@@ -18,7 +18,9 @@ class MercadoLibre:
     def _get(self, path):
         pass
 
-    def _post(self, path, body=None, params={}):
+    def _post(self, path, body=None, params=None):
+        if params is None:
+            params = {}
         headers = {
             'Accept': 'application/json',
             'User-Agent': '',
@@ -29,16 +31,18 @@ class MercadoLibre:
             body = json.dumps(body)
         return requests.post(url, body, headers=headers)
 
-    def _put(self, path, body=None, params={}):
+    def _put(self, path, body=None, params=None):
         pass
 
-    def _delete(self, path, params={}):
+    def _delete(self, path, params=None):
         pass
 
-    def _options(self, path, params={}):
+    def _options(self, path, params=None):
         pass
 
-    def _build_url(self, path, params={}):
+    def _build_url(self, path, params=None):
+        if params is None:
+            params = {}
         return '{0}?{1}'.format(path, urllib.urlencode(params))
 
     def authenticate(self, code, redirect_uri):
