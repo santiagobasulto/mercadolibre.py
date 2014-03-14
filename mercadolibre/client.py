@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
+import json
 import urllib
 import requests
 
-from .config import OAUTH_URL
+from .config import API_ROOT, OAUTH_URL
 
 
 class MercadoLibre:
@@ -18,8 +19,15 @@ class MercadoLibre:
         pass
 
     def _post(self, path, body=None, params={}):
+        headers = {
+            'Accept': 'application/json',
+            'User-Agent': '',
+            'Content-type': 'application/json'
+        }
         url = self._build_url(path, params)
-        return requests.post(url, body)
+        if body is not None:
+            body = json.dumps(body)
+        return requests.post(url, body, headers=headers)
 
     def _put(self, path, body=None, params={}):
         pass
@@ -50,3 +58,13 @@ class MercadoLibre:
         self.access_token = content['access_token']
         if 'refresh_token' in content:
             self.refresh_token = content['refresh_token']
+
+    def create_item(self, data):
+        url = '{0}{1}'.format(API_ROOT, '/items')
+        params = {'access_token': self.access_token}
+        response = self._post(url, body=data, params=params)
+
+        if not response.status_code == requests.codes.ok:
+            response.raise_for_status()
+
+        return response.json()
