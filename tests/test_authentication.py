@@ -1,24 +1,11 @@
 # -*- coding: utf-8 -*-
-import json
-import unittest
 import requests
 from mock import patch
 
-from mercadolibre import MercadoLibre
+from . import MercadoLibreBaseTestCase
 
 
-class TestMercadoLibreAuthentication(unittest.TestCase):
-    def setUp(self):
-        self.client = MercadoLibre(app_id='test', secret_key='test')
-
-    def _fake_response(self, status=200, content=None):
-        response = requests.Response()
-        response.status_code = status
-        if content is not None:
-            if isinstance(content, dict):
-                content = json.dumps(content)
-            response._content = content
-        return response
+class TestMercadoLibreAuthentication(MercadoLibreBaseTestCase):
 
     def test_authenticate(self):
         content = {
