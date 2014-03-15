@@ -15,4 +15,4 @@ __copyright__ = ''
 __version__ = '0.0.1'
 __version_info__ = tuple(int(i) for i in __version__.split('.'))
 
-from .client import MercadoLibre
+from .api import MercadoLibre
