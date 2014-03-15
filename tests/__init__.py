@@ -8,7 +8,7 @@ from mercadolibre import MercadoLibre
 
 class MercadoLibreBaseTestCase(unittest.TestCase):
     def setUp(self):
-        self.client = MercadoLibre(app_id='test', secret_key='test')
+        self.client = MercadoLibre(app_id='test', app_secret='test')
 
     def _fake_response(self, status=200, content=None):
         response = requests.Response()

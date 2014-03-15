@@ -1,7 +1,6 @@
 import json
 
-import requests
-
+from . import http
 from . import config
 
 __all__ = ['Item', 'SiteMLA']
@@ -47,15 +46,6 @@ class BaseResource(object):
             return cls.get_collection(params=params, access_token=access_token)
 
     @classmethod
-    def get_headers(cls):
-        headers = {
-            'Accept': 'application/json',
-            'User-Agent': config.USER_AGENT,
-            'Content-type': 'application/json'
-        }
-        return headers
-
-    @classmethod
     def build_object_from_dict(cls, data_dict, access_token=None):
         data_dict.update({
             '_data': data_dict,
@@ -73,17 +63,13 @@ class BaseResource(object):
 
         resource_url = cls.get_collection_resource_endpoint()
 
-        headers = cls.get_headers()
-        kwargs = {
-            'url': resource_url,
-            'headers': headers
-        }
+        kwargs = {'url': resource_url}
         if params:
             kwargs.update({'params': params})
         if data:
             kwargs.update({'data': json.dumps(data)})
 
-        response = requests.post(**kwargs)
+        response = http.get_session().post(**kwargs)
 
         if not response.ok:
             response.raise_for_status()
@@ -99,16 +85,12 @@ class BaseResource(object):
 
         resource_url = cls.get_detail_resource_endpoint(id=id)
 
-        headers = cls.get_headers()
-        kwargs = {
-            'url': resource_url,
-            'headers': headers
-        }
+        kwargs = {'url': resource_url}
         if params:
             kwargs.update({'params': params})
-        response = requests.get(**kwargs)
+        response = http.get_session().get(**kwargs)
 
-        if not response.status_code == requests.codes.ok:
+        if not response.ok:
             response.raise_for_status()
 
         return cls.build_object_from_dict(
@@ -123,21 +105,19 @@ class BaseResource(object):
 
         resource_url = cls.get_collection_resource_endpoint(sub_resource)
 
-        headers = cls.get_headers()
-        kwargs = {
-            'url': resource_url,
-            'headers': headers
-        }
+        kwargs = {'url': resource_url}
         if params:
             kwargs.update({'params': params})
-        response = requests.get(**kwargs)
-        if not response.status_code == requests.codes.ok:
+
+        response = http.get_session().get(**kwargs)
+        if not response.ok:
             response.raise_for_status()
 
         # TODO: Build objects or iterator
         return response.json()
 
     def __init__(self, *args, **kwargs):
+        self.session = http.get_session()
         for name, value in kwargs.items():
             setattr(self, name, value)
 

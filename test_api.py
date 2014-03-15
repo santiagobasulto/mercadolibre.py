@@ -5,9 +5,6 @@ APP_ID = '554056882653189'
 APP_SECRET = 'a8hWBhGCbgNXhMuHrZM8nmGXLRL6wpXc'
 ACCESS_TOKEN = "APP_USR-554056882653189-031507-2f5c6c7ae3402041ba7f79b569ba77bf__E_N__-82365164"
 
-# client = MercadoLibre(
-#     app_id=APP_ID, secret_key=APP_SECRET, access_token=ACCESS_TOKEN)
-
 img = "http://lpnk.com.ar/Publicaciones_Mercado_Libre/Datos_de_la_Empresa.jpg"
 data = {
     'title': 'TEST HP CARTUCHO 122 COLOR (CH562HL)',
@@ -54,7 +51,12 @@ data = {
 }
 from mercadolibre.resources import Category
 
-ml = api.login(APP_ID, APP_SECRET, ACCESS_TOKEN)
+ml = api.login(APP_ID, APP_SECRET)
+redirect_url = "http://localhost:8000/callbacks/auth/ml/"
+auth_url = ml.build_authorization_url(redirect_url)
+print(auth_url)
+exit()
+
 # item = ml.create_item(data=data)
 response = ml.site.search("HP CARTUCHO 122 COLOR")
 results = response.get('results')
