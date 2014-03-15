@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
 import json
-import urllib
 import requests
 
+from .resources import *
 from .config import API_ROOT, OAUTH_URL
+
+try:
+    import urllib
+    encode_function = urllib.urlencode
+except AttributeError:
+    from urllib import parse
+    encode_function = parse.urlencode
 
 
 class MercadoLibre:
@@ -18,15 +25,20 @@ class MercadoLibre:
     def _get(self, path):
         pass
 
-    def _post(self, path, body=None, params=None):
+    def _post(self, path, body=None, params=None, privileged=True):
         if params is None:
             params = {}
+
+        if privileged and not 'access_token' in params:
+            params.update({'access_token': self.access_token})
+
         headers = {
             'Accept': 'application/json',
             'User-Agent': '',
             'Content-type': 'application/json'
         }
         url = self._build_url(path, params)
+
         if body is not None:
             body = json.dumps(body)
         return requests.post(url, body, headers=headers)
@@ -43,7 +55,9 @@ class MercadoLibre:
     def _build_url(self, path, params=None):
         if params is None:
             params = {}
-        return '{0}?{1}'.format(path, urllib.urlencode(params))
+
+        return '{}/{}?{}'.format(
+            API_ROOT, path, encode_function(params))
 
     def authenticate(self, code, redirect_uri):
         params = {
@@ -63,12 +77,30 @@ class MercadoLibre:
         if 'refresh_token' in content:
             self.refresh_token = content['refresh_token']
 
-    def create_item(self, data):
-        url = '{0}{1}'.format(API_ROOT, '/items')
-        params = {'access_token': self.access_token}
-        response = self._post(url, body=data, params=params)
+    def create_item(self, data, params=None):
+        if not params:
+            params = {}
+
+        path = 'items'
+        response = self._post(path, body=data, params=params)
+
+        if not response.status_code == requests.codes.ok:
+            response.raise_for_status()
+        import ipdb; ipdb.set_trace()
+
+        return Item(api=self, data=response.json())
+
+    def validate_item(self, data, params=None):
+        if not params:
+            params = {}
+
+        path = 'items/validate'
+        response = self._post(path, body=data, params=params)
 
         if not response.status_code == requests.codes.ok:
             response.raise_for_status()
 
-        return response.json()
+        return response
+
+    def upload_picture(self, picture_io=None):
+        pass
