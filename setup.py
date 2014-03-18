@@ -15,7 +15,7 @@ with open('requirements.txt', 'r') as f:
     requires = f.read()
 
 setup(
-    name='requests',
+    name='mercadolibre.py',
     version=VERSION,
     description='Python HTTP for Humans.',
     long_description=readme,

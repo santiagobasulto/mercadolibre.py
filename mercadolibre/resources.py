@@ -3,7 +3,7 @@ import json
 from . import http
 from . import config
 
-__all__ = ['Item', 'SiteMLA']
+__all__ = ['Item', 'SiteMLA', 'UserResource']
 
 
 class BaseResource(object):
@@ -148,3 +148,7 @@ class SiteMLA(BaseResource):
 
 class Category(BaseResource):
     RESOURCE_NAME = 'categories'
+
+
+class UserResource(BaseResource):
+    RESOURCE_NAME = 'users'

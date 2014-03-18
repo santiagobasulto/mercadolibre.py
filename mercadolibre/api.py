@@ -28,6 +28,9 @@ class MercadoLibre(object):
         self.site = SiteMLA
         self.items = Item
 
+    def me(self):
+        return UserResource.get("me", access_token=self.access_token)
+
     def build_authorization_url(self, redirect_url):
         params = {
             "client_id": self.app_id,

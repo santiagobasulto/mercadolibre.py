@@ -3,7 +3,7 @@ from mercadolibre import api
 
 APP_ID = '554056882653189'
 APP_SECRET = 'a8hWBhGCbgNXhMuHrZM8nmGXLRL6wpXc'
-ACCESS_TOKEN = "APP_USR-554056882653189-031507-2f5c6c7ae3402041ba7f79b569ba77bf__E_N__-82365164"
+ACCESS_TOKEN = "APP_USR-554056882653189-031816-50da07536429acf9d44587d7a488fa1b__H_F__-82365164"
 
 img = "http://lpnk.com.ar/Publicaciones_Mercado_Libre/Datos_de_la_Empresa.jpg"
 data = {
