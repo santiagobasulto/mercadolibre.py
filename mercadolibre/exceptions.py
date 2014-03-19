@@ -1,4 +1,6 @@
-class MercadoLibreException(Exception): pass
+class MercadoLibreException(Exception):
+    pass
 
 
-class UnauthorizedException(MercadoLibreException): pass
+class UnauthorizedException(MercadoLibreException):
+    pass

@@ -39,6 +39,21 @@ class MercadoLibre(object):
         }
         return "{0}?{1}".format(config.AUTH_URL, encode_function(params))
 
+    def refresh_access_token(self, refresh_token):
+        params = {
+            'grant_type': 'refresh_token',
+            'client_id': self.app_id,
+            'client_secret': self.app_secret,
+            'refresh_token': refresh_token
+        }
+        response = self.session.post(config.OAUTH_URL, params=params)
+        if not response.ok:
+            response.raise_for_status()
+        content = response.json()
+        self.access_token = content.get('access_token')
+        self.refresh_token = content.get('refresh_token')
+        return (self.access_token, self.refresh_token)
+
     def authenticate(self, code, redirect_uri):
         params = {
             'grant_type': 'authorization_code',
