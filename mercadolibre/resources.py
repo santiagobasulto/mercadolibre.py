@@ -116,6 +116,17 @@ class BaseResource(object):
         # TODO: Build objects or iterator
         return response.json()
 
+    def get_resource_uri(self):
+        """Normalized URI for resources.
+        Format: 'https://api.mercadolibre.com/[RESOURCE_NAME]/[ID]/'
+        It always has a slash at the end.
+        """
+        if not self.id:
+            raise AttributeError("Unbounded Item doesn't have an ID.")
+
+        uri = self.get_detail_resource_endpoint(self.id)
+        return uri if uri[-1] == "/" else uri + "/"
+
     def __init__(self, *args, **kwargs):
         self.session = http.get_session()
         for name, value in kwargs.items():
@@ -136,6 +147,27 @@ class Item(BaseResource):
         return Category.get(id=self.category_id)
 
     category = property(get_category)
+
+    def add_description(self, description):
+        resource_uri = self.get_resource_uri() + "descriptions"
+        params = {
+            'access_token': self.access_token
+        }
+
+        data = {
+            'text': description
+        }
+        kwargs = {
+            'url': resource_uri,
+            'data': json.dumps(data),
+            'params': params
+        }
+
+        response = http.get_session().post(**kwargs)
+        if not response.ok:
+            response.raise_for_status()
+        return response.json()
+
 
 
 class SiteMLA(BaseResource):
