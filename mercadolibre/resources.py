@@ -2,8 +2,11 @@ import json
 
 from . import http
 from . import config
+from mercadolibre.exceptions import MercadoLibreException
 
-__all__ = ['Item', 'SiteMLA', 'UserResource']
+__all__ = [
+    'ItemResource', 'MLASiteResource', 'UserResource',
+    'ItemDescriptionResource', 'TestUser']
 
 
 class BaseResource(object):
@@ -24,6 +27,7 @@ class BaseResource(object):
         )
         if sub_resource:
             url += sub_resource
+
         return url
 
     @classmethod
@@ -39,82 +43,100 @@ class BaseResource(object):
         return list_endpoint + "{id}/".format(id=id)
 
     @classmethod
-    def get(cls, id=None, params=None, access_token=None):
+    def get(cls, id=None, params=None, credentials=None):
         if id:
-            return cls.get_detail(id, params=params, access_token=access_token)
+            return cls.get_detail(id, params=params, credentials=credentials)
         else:
-            return cls.get_collection(params=params, access_token=access_token)
+            return cls.get_collection(params=params, credentials=credentials)
 
     @classmethod
-    def build_object_from_dict(cls, data_dict, access_token=None):
-        data_dict.update({
-            '_data': data_dict,
-            'access_token': access_token
-        })
-        obj = cls(**data_dict)
+    def get_iterator_for_collection(cls):
+        from .iterators import BaseMercadoLibreIterator
+        return BaseMercadoLibreIterator
+
+    @classmethod
+    def build_object_from_dict(cls, data_dict, credentials=None):
+        kwargs = {
+            'data': data_dict,
+            'credentials': credentials
+        }
+        obj = cls(**kwargs)
+        obj._data = data_dict
         return obj
 
     @classmethod
-    def post(cls, data=None, params=None, access_token=None):
-        if params is None:
-            params = {}
-        if access_token and not 'access_token' in params:
-            params.update({'access_token': access_token})
+    def _request(cls, method, url, session=None, credentials=None, **kwargs):
+        credentials = cls.get_credentials(credentials=credentials)
+        session = session or cls.get_session(credentials=credentials)
+        response = session.request(method, url, **kwargs)
+        return response
 
+    _get = classmethod(
+        lambda cls, url, **kwargs: cls._request('GET', url, **kwargs))
+
+    _post = classmethod(
+        lambda cls, url, **kwargs: cls._request('POST', url, **kwargs))
+
+    @classmethod
+    def post(cls, data=None, params=None, credentials=None):
         resource_url = cls.get_collection_resource_endpoint()
+        kwargs = {
+            'url': resource_url,
+            'credentials': credentials
+        }
 
-        kwargs = {'url': resource_url}
         if params:
             kwargs.update({'params': params})
         if data:
             kwargs.update({'data': json.dumps(data)})
 
-        response = http.get_session().post(**kwargs)
+        response = cls._post(**kwargs)
 
         if not response.ok:
-            response.raise_for_status()
+            raise MercadoLibreException(response.content)
+
         return cls.build_object_from_dict(
-            response.json(), access_token=access_token)
+            response.json(), credentials=credentials)
 
     @classmethod
-    def get_detail(cls, id, params=None, access_token=None):
-        if params is None:
-            params = {}
-        if access_token and not 'access_token' in params:
-            params.update({'access_token': access_token})
+    def get_credentials(cls, credentials=None):
+        return credentials or getattr(cls, 'credentials', None)
 
+    @classmethod
+    def get_session(cls, credentials=None):
+        credentials = cls.get_credentials(credentials)
+        return http.get_session(credentials=credentials)
+
+    @classmethod
+    def get_detail(cls, id, params=None, credentials=None):
         resource_url = cls.get_detail_resource_endpoint(id=id)
+        kwargs = {
+            'url': resource_url,
+            'credentials': credentials
+        }
 
-        kwargs = {'url': resource_url}
         if params:
-            kwargs.update({'params': params})
-        response = http.get_session().get(**kwargs)
+            kwargs['params'] = params
+
+        response = cls._get(**kwargs)
 
         if not response.ok:
             response.raise_for_status()
 
         return cls.build_object_from_dict(
-            response.json(), access_token=access_token)
+            response.json(), credentials=credentials)
 
     @classmethod
-    def get_collection(cls, sub_resource=None, params=None, access_token=None):
+    def get_collection(cls, sub_resource=None, params=None, credentials=None):
         if params is None:
             params = {}
-        if access_token and not 'access_token' in params:
-            params.update({'access_token': access_token})
 
-        resource_url = cls.get_collection_resource_endpoint(sub_resource)
+        resource_uri = cls.get_collection_resource_endpoint(sub_resource)
 
-        kwargs = {'url': resource_url}
-        if params:
-            kwargs.update({'params': params})
+        IteratorClass = cls.get_iterator_for_collection()
 
-        response = http.get_session().get(**kwargs)
-        if not response.ok:
-            response.raise_for_status()
-
-        # TODO: Build objects or iterator
-        return response.json()
+        return IteratorClass(
+            cls, resource_uri, params=params, credentials=credentials)
 
     def get_resource_uri(self):
         """Normalized URI for resources.
@@ -127,10 +149,17 @@ class BaseResource(object):
         uri = self.get_detail_resource_endpoint(self.id)
         return uri if uri[-1] == "/" else uri + "/"
 
+    def is_subresource(self):
+        return False
+
     def __init__(self, *args, **kwargs):
-        self.session = http.get_session()
-        for name, value in kwargs.items():
-            setattr(self, name, value)
+        self.credentials = kwargs.get('credentials')
+        self.session = BaseResource.get_session(
+            credentials=self.credentials)
+
+        if 'data' in kwargs:
+            for name, value in kwargs.get('data').items():
+                setattr(self, name, value)
 
     def __getattr__(self, name):
         if hasattr('self', '_data') and name in self._data:
@@ -138,7 +167,36 @@ class BaseResource(object):
         raise AttributeError('No attribute: {0}'.format(name))
 
 
-class Item(BaseResource):
+class SearchableResourceMixin(object):
+
+    @classmethod
+    def search(cls, offset=None, limit=None, sort_by=None, credentials=None):
+        kwargs = {
+            'sub_resource': 'search'
+        }
+        params = {}
+        available_params = [
+            ('offset', offset), ('limit', limit), ('sort_by', sort_by)
+        ]
+        for name, value in available_params:
+            if value is not None:
+                params[name] = value
+
+        if params:
+            kwargs['params'] = params
+
+        if credentials:
+            kwargs['credentials'] = credentials
+
+        return cls.get_collection(**kwargs)
+
+
+class BaseSubResource(BaseResource):
+    def is_subresource(self):
+        return True
+
+
+class ItemResource(BaseResource):
     RESOURCE_NAME = 'items'
 
     def get_category(self):
@@ -169,13 +227,18 @@ class Item(BaseResource):
         return response.json()
 
 
+class ItemDescriptionResource(BaseSubResource):
+    RESOURCE_NAME = 'items/{item_id}/descriptions'
 
-class SiteMLA(BaseResource):
-    RESOURCE_NAME = 'sites/MLA'
 
+class SiteResource(BaseResource):
     @classmethod
     def search(cls, q, access_token=None):
         return cls.get_collection('search', params={'q': q})
+
+
+class MLASiteResource(SiteResource):
+    RESOURCE_NAME = 'sites/MLA'
 
 
 class Category(BaseResource):
@@ -184,3 +247,6 @@ class Category(BaseResource):
 
 class UserResource(BaseResource):
     RESOURCE_NAME = 'users'
+
+class TestUser(BaseResource):
+    RESOURCE_NAME = 'users/test_user'

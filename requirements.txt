@@ -1,5 +1,1 @@
 requests
-
-# Dev
-nose
-mock

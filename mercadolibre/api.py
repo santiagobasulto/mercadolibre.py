@@ -1,5 +1,6 @@
 from . import http
 from . import config
+from mercadolibre.auth import Credentials
 from .resources import *
 from .exceptions import UnauthorizedException
 
@@ -16,20 +17,26 @@ class MercadoLibre(object):
     """
     High level API.
     """
-    def __init__(self, app_id, app_secret,
-                 access_token=None, refresh_token=None):
-        self.session = http.get_session()
+    def __init__(self, credentials):
+        self.session = http.get_session(credentials)
 
-        self.app_id = app_id
-        self.app_secret = app_secret
-        self.access_token = access_token
-        self.refresh_token = refresh_token
+        self.credentials = credentials
 
-        self.site = SiteMLA
-        self.items = Item
+        self.mla = MLASiteResource
+        self.mla.credentials = credentials
+
+        self.items = ItemResource
+        self.items.credentials = credentials
+
+        self.test_user = TestUser
+        self.test_user.credentials = credentials
 
     def me(self):
-        return UserResource.get("me", access_token=self.access_token)
+        return UserResource.get("me", credentials=self.credentials)
+
+    @property
+    def is_authenticated(self):
+        return self.credentials.is_authenticated()
 
     def build_authorization_url(self, redirect_url):
         params = {
@@ -75,17 +82,23 @@ class MercadoLibre(object):
 
         return (content.get('access_token'), content.get('refresh_token'))
 
-    def create_item(self, data, params=None):
-        if not self.access_token:
-            raise UnauthorizedException(
-                "Need an access token to perform this operation")
-        return Item.post(
-            data=data, params=None, access_token=self.access_token)
 
-
-def login(app_id, app_secret, access_token=None, refresh_token=None):
+def login(
+        credentials=None, app_id=None, app_secret=None,
+        access_token=None, refresh_token=None):
     """Abstraction that creates an authorized API object and returns it."""
-    return MercadoLibre(
-        app_id, app_secret,
-        access_token=access_token,
-        refresh_token=refresh_token)
+
+    if credentials is None:
+        if not all([app_id, app_secret]):
+            raise AttributeError(
+                "App ID and App Secret are required. Check Docs.")
+        credentials = Credentials(
+            app_id=app_id, app_secret=app_secret,
+            access_token=access_token, refresh_token=refresh_token)
+    elif not isinstance(credentials, Credentials):
+        # I'm killing Duck Typing. Sorry.
+        raise AttributeError(
+            "credentials must be a subclass of mercadolibre.auth.Credentials."
+            " Check the docs.")
+
+    return MercadoLibre(credentials)

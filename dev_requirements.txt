@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+six
+coverage
+mock
+click
+ipdb
