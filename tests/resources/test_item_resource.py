@@ -132,3 +132,40 @@ class ItemResourceHighLevelTestCase(BaseAuthenticatedTestCase):
 
         self.assertTrue(hasattr(item, 'permalink'))
         self.assertIsNotNone(item.permalink)
+
+
+class ItemCategoryTestCase(BaseAuthenticatedTestCase):
+    def setUp(self):
+        super(ItemCategoryTestCase, self).setUp()
+        self.client = api.login(self.credentials)
+
+    def test_get_item_category(self):
+        """Should GET the category of an item"""
+        item_id = "MLA503678087"
+        with patch.object(BaseResource, '_get') as _mock:
+            response = MagicMock(spec=Response, ok=True, status_code=200)
+            response.json = MagicMock(
+                return_value=item_fixtures.REAL_ITEM_FROM_MLA)
+            _mock.return_value = response
+
+            # High level API access
+            item = self.client.items.get(id=item_id)
+
+        with patch.object(BaseResource, '_get') as _mock:
+            response = MagicMock(spec=Response, ok=True, status_code=200)
+            response.json = MagicMock(
+                return_value=item_fixtures.REAL_CATEGORY_FROM_MLA_1)
+            _mock.return_value = response
+            category = item.category
+
+        # The category from the Item was present in the URL.
+        kwargs = _mock.call_args[1]
+        self.assertTrue('url' in kwargs)
+        self.assertEqual(
+            kwargs['url'], 'https://api.mercadolibre.com/categories/MLA12272/')
+
+        self.assertTrue(isinstance(category, CategoryResource))
+        self.assertEqual(category.id, 'MLA12272')
+        self.assertEqual(category.name, 'Otros')
+        self.assertTrue(isinstance(category.path_from_root, list))
+        self.assertTrue(len(category.path_from_root) > 0)

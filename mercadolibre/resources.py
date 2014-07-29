@@ -5,7 +5,7 @@ from . import config
 from mercadolibre.exceptions import MercadoLibreException
 
 __all__ = [
-    'ItemResource', 'MLASiteResource', 'UserResource',
+    'ItemResource', 'MLASiteResource', 'UserResource', 'CategoryResource',
     'ItemDescriptionResource', 'TestUser']
 
 
@@ -202,7 +202,13 @@ class ItemResource(BaseResource):
     def get_category(self):
         if not self.category_id:
             raise AttributeError("This item doesn't have a category")
-        return Category.get(id=self.category_id)
+        kwargs = {
+            'id': self.category_id
+        }
+        if self.credentials:
+            kwargs['credentials'] = self.credentials
+
+        return CategoryResource.get(**kwargs)
 
     category = property(get_category)
 
@@ -241,7 +247,7 @@ class MLASiteResource(SiteResource):
     RESOURCE_NAME = 'sites/MLA'
 
 
-class Category(BaseResource):
+class CategoryResource(BaseResource):
     RESOURCE_NAME = 'categories'
 
 

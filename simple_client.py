@@ -119,6 +119,30 @@ def create_test_item(state, input, **kwargs):
 
 
 @main.command()
+@click.argument('item_id')
+@click.option('-c', '--include-category', is_flag=True, default=False)
+@common_options
+@pass_state
+def get_item(state, item_id, include_category, **kwargs):
+    if not state.access_token:
+        raise click.UsageError("This method requires an ACCESS TOKEN")
+
+    ml = api.login(
+        app_id=state.app_id, app_secret=state.app_secret,
+        access_token=state.access_token)
+    item = ml.items.get(id=item_id)
+    click.echo("Test Item created.")
+    log_api_object(item, ['id', 'permalink'])
+    click.echo("")
+
+    if include_category:
+        category = item.category
+        click.echo("Category Info:")
+        log_api_object(category, ['id', 'name', 'path_from_root'])
+    click.echo("")
+
+
+@main.command()
 @common_options
 @pass_state
 def me(state, **kwargs):

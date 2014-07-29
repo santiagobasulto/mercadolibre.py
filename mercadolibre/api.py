@@ -27,6 +27,9 @@ class MercadoLibre(object):
         self.items = ItemResource
         self.items.credentials = credentials
 
+        self.categories = CategoryResource
+        self.categories.credentials = credentials
+
         self.test_user = TestUser
         self.test_user.credentials = credentials
 
