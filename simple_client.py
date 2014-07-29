@@ -118,5 +118,21 @@ def create_test_item(state, input, **kwargs):
     click.echo("")
 
 
+@main.command()
+@common_options
+@pass_state
+def me(state, **kwargs):
+    if not state.access_token:
+        raise click.UsageError("This method requires an ACCESS TOKEN")
+
+    ml = api.login(
+        app_id=state.app_id, app_secret=state.app_secret,
+        access_token=state.access_token)
+
+    me = ml.me()
+    click.echo("Test user created.")
+    log_api_object(me, ['id', 'nickname', 'email'])
+    click.echo("")
+
 if __name__ == '__main__':
     main()
