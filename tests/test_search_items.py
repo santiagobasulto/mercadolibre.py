@@ -1,4 +1,4 @@
-from .tests.resources.base import BaseAuthenticatedTestCase
+from .resources.base import BaseAuthenticatedTestCase
 
 
 class SearchItemsTestCase(BaseAuthenticatedTestCase):

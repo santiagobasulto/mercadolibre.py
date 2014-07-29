@@ -8,7 +8,7 @@ from mercadolibre import http
 from mercadolibre.resources import BaseResource
 
 from .base import BaseAuthenticatedTestCase
-from .fixtures import user_fixtures
+from ..fixtures import user_fixtures
 
 
 class UserResourceTestCase(BaseAuthenticatedTestCase):

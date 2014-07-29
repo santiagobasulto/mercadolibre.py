@@ -42,15 +42,21 @@ class APITestCase(TestCase):
         self.assertEqual(ml.credentials.app_id, auth_fixtures.APP_ID)
         self.assertEqual(ml.credentials.app_secret, auth_fixtures.APP_SECRET)
 
-    def test_api_is_not_authenticated_without_access_token(self):
-        """An api without an access_token should NOT be authenticated"""
+    def test_api_is_authenticated_with_access_token(self):
+        """Should be authenticated if an app_id and app_secret are passed"""
         ml = api.login(
             app_id=auth_fixtures.APP_ID, app_secret=auth_fixtures.APP_SECRET)
-        self.assertFalse(ml.is_authenticated)
+        self.assertTrue(ml.is_authenticated, ml.is_authenticated)
 
-    def test_api_is_authenticated_with_access_token(self):
-        """An api with an access_token should be authenticated"""
+    def test_api_is_not_authorized_without_access_token(self):
+        """An api without an access_token should NOT be authorized"""
+        ml = api.login(
+            app_id=auth_fixtures.APP_ID, app_secret=auth_fixtures.APP_SECRET)
+        self.assertFalse(ml.is_authorized)
+
+    def test_api_is_authorized_with_access_token(self):
+        """An api with an access_token should be authorized"""
         ml = api.login(
             app_id=auth_fixtures.APP_ID, app_secret=auth_fixtures.APP_SECRET,
             access_token=auth_fixtures.ACCESS_TOKEN)
-        self.assertTrue(ml.is_authenticated)
+        self.assertTrue(ml.is_authorized)

@@ -248,5 +248,6 @@ class Category(BaseResource):
 class UserResource(BaseResource):
     RESOURCE_NAME = 'users'
 
+
 class TestUser(BaseResource):
     RESOURCE_NAME = 'users/test_user'

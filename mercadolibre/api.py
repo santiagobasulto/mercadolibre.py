@@ -2,7 +2,6 @@ from . import http
 from . import config
 from mercadolibre.auth import Credentials
 from .resources import *
-from .exceptions import UnauthorizedException
 
 
 try:
@@ -37,6 +36,10 @@ class MercadoLibre(object):
     @property
     def is_authenticated(self):
         return self.credentials.is_authenticated()
+
+    @property
+    def is_authorized(self):
+        return self.credentials.is_authorized()
 
     def build_authorization_url(self, redirect_url):
         params = {
@@ -83,9 +86,8 @@ class MercadoLibre(object):
         return (content.get('access_token'), content.get('refresh_token'))
 
 
-def login(
-        credentials=None, app_id=None, app_secret=None,
-        access_token=None, refresh_token=None):
+def login(credentials=None, app_id=None, app_secret=None,
+          access_token=None, refresh_token=None):
     """Abstraction that creates an authorized API object and returns it."""
 
     if credentials is None:

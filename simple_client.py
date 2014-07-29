@@ -7,7 +7,7 @@ from mercadolibre import api
 
 
 def capitalize(s):
-        return s[0].upper() + s[1:]
+    return s[0].upper() + s[1:]
 
 
 def log_api_object(obj, props):

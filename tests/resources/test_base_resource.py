@@ -125,17 +125,3 @@ class TestBaseResourceInitialization(BaseAuthenticatedTestCase):
             with self.assertRaises(StopIteration):
                 next(it)
             self.assertEqual(_mock.call_count, 0)
-
-
-
-var = """
-DummyResource.search() # returns all the results - 1 HTTP call
-DummyResource.search(limit=2) # returns just 2 results - 1 HTTP call
-DummyResource.search(limit=2) # returns 4 results - 2 HTTP calls
-
-DummyResource.search() # 2 HTTP Calls
-
-client.items.search()
-client.items.search(offset=50)
-client.items.search(limit=10, sort_by=sort_methods.PRICE_DESC)
-"""

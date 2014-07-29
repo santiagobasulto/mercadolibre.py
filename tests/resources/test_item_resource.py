@@ -13,6 +13,7 @@ from ..fixtures import item_fixtures
 class ItemResourceLowLevelTestCase(BaseAuthenticatedTestCase):
     """Tests low level access and API to the Item Resource"""
     def test_get_an_item(self):
+        """Should GET an item using the low level API"""
         item_id = "MLA503678087"
 
         with patch.object(BaseResource, '_get') as _mock:
@@ -29,6 +30,7 @@ class ItemResourceLowLevelTestCase(BaseAuthenticatedTestCase):
         self.assertIsNotNone(item.permalink)
 
     def test_post_an_item(self):
+        """Should POST an item using the low level API"""
         data = item_fixtures.BASIC_TEST_ITEM_FOR_CREATION_1
 
         with patch.object(BaseResource, '_post') as _mock:
@@ -49,6 +51,7 @@ class ItemResourceLowLevelTestCase(BaseAuthenticatedTestCase):
 
 class ItemResourceMidLevelTestCase(BaseAuthenticatedTestCase):
     def test_get_an_item(self):
+        """Should GET an item using the mid level API"""
         item_id = "MLA503678087"
         ItemResource.credentials = self.credentials
 
@@ -66,6 +69,7 @@ class ItemResourceMidLevelTestCase(BaseAuthenticatedTestCase):
         self.assertIsNotNone(item.permalink)
 
     def test_post_an_item(self):
+        """Should POST an item using the mid level API"""
         data = item_fixtures.BASIC_TEST_ITEM_FOR_CREATION_1
         ItemResource.credentials = self.credentials
 
@@ -95,6 +99,7 @@ class ItemResourceHighLevelTestCase(BaseAuthenticatedTestCase):
         self.assertEqual(self.client.items, ItemResource)
 
     def test_get_an_item(self):
+        """Should GET an item using the high level API"""
         item_id = "MLA503678087"
         with patch.object(BaseResource, '_get') as _mock:
             response = MagicMock(spec=Response, ok=True, status_code=200)
@@ -110,6 +115,7 @@ class ItemResourceHighLevelTestCase(BaseAuthenticatedTestCase):
         self.assertIsNotNone(item.permalink)
 
     def test_post_an_item(self):
+        """Should POST an item using the high level API"""
         data = item_fixtures.BASIC_TEST_ITEM_FOR_CREATION_1
 
         with patch.object(BaseResource, '_post') as _mock:
@@ -121,19 +127,8 @@ class ItemResourceHighLevelTestCase(BaseAuthenticatedTestCase):
             # High level API access
             item = self.client.items.post(data=data)
 
-        # kwargs = _mock.call_args[1]
-        # self.assertEqual(_mock.call_count, 1)
-        # self.assertIsNotNone(
-        #     kwargs.get('credentials'),
-        #     "POST should have been called with credentials")
-
         self.assertTrue(hasattr(item, 'id'))
         self.assertIsNotNone(item.id)
 
         self.assertTrue(hasattr(item, 'permalink'))
         self.assertIsNotNone(item.permalink)
-
-
-# class DescriptionResourceLowLevelTestCase(BaseAuthenticatedTestCase):
-#     def test_add_description_to_item(self):
-#         ItemDescriptionResource.post()
