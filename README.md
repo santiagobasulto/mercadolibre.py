@@ -4,11 +4,24 @@ Improved Python client for MercadoLibre API.
 
 ### Simple CLI client. Test the API by your own.
 
-I've included a simple command line client to interact with the API. There are a number of commands included. You can always include yours. Just send your PRs.
+I've created a simple CLI client to ease your testing and development. It's also a great example of how to use `mercadolibre.py`.
 
-To use it you'll need an APP_ID, an APP_SECRET and an ACCESS_TOKEN. You'll find more information to get it on the [MercadoLibre documentation site](http://developers.mercadolibre.com/first-step/). Once you have those tokens you should first **create a test user** so you won't hurt your own private user.
+```bash
 
-To make your life easier you can configure your client to get your APP_ID and APP_SECRET from envvars. Just issue these commands (or add them to your `.bashrc` or similar).
+# Create a test user
+$ python simple_client.py create_test_user --access-token YOUR_ACCESS_TOKEN
+
+# Create a test Item from a file called data.json
+$ python simple_client.py create_test_item data.json --access-token YOUR_ACCESS_TOKEN
+
+# Search all items containing the string "Jawbone Up24"
+$ python simple_client.py search -q "Jawbone Up24"
+
+```
+
+To use it you'll need an `APP_ID`, an `APP_SECRET` and an `ACCESS_TOKEN`. You'll find more information to get it on the [MercadoLibre documentation site](http://developers.mercadolibre.com/first-step/).
+
+To make your life easier you can configure your client to get your `APP_ID` and `APP_SECRET` from envvars. Just issue these commands (or add them to your `.bashrc` or similar). Example:
 
 ```bash
 $ export ML_APP_ID=999-YOUR_APP_ID-999
@@ -51,4 +64,9 @@ $ python simple_client.py search -s 38726013
 
 ## Run tests
 
-py.test -s tests/resources/test_items.py::ItemResourceHighLevelTestCase
+```bash
+
+# -s doesn't captures output. You'll be able to ipdb and print in your tests.
+$ py.test -s tests/resources/test_items.py::ItemResourceHighLevelTestCase::test_some_method
+
+```
