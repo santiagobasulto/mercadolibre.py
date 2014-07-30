@@ -30,7 +30,7 @@ class BaseSearchTestCase(BaseAuthenticatedTestCase):
 
 class SearchItemsTestCase(BaseSearchTestCase):
     def test_search_by_query_string(self):
-        """Should search by QS and return a Search object"""
+        """Should search by QS and return an iterator"""
         content = self.load_json_fixture("samsung_s3_search_result.json")
 
         with patch.object(BaseResource, '_get') as _mock:
@@ -72,7 +72,7 @@ class SearchItemsTestCase(BaseSearchTestCase):
             "Celular Libre Samsung Galaxy S3 I9300 Quadcore 1.4ghz Led 4")
 
     def test_search_by_query_string_and_category_with_id(self):
-        """Should search by QS and return a Search object"""
+        """Should search by QS and category and return an iterator"""
         content = self.load_json_fixture(
             "samsung_qs_and_category_search_result.json")
 
@@ -109,7 +109,7 @@ class SearchItemsTestCase(BaseSearchTestCase):
             "Samsung Gear Fit Para S4 S5 Note Ritmo Cardiaco")
 
     def test_search_by_seller_nickname(self):
-        """Should search by QS and return a Search object"""
+        """Should search by seller nickname and return an iterator"""
         content = self.load_json_fixture(
             "seller_by_nickname_laplata_notebooks.json")
 
@@ -125,6 +125,43 @@ class SearchItemsTestCase(BaseSearchTestCase):
         self.assertTrue('params' in args)
 
         self.assertEqual(args['params'].get('nickname'), 'LAPLATA-NOTEBOOKS')
+
+        self.assertTrue(isinstance(iterator, BaseMercadoLibreIterator))
+        self.assertIsNone(iterator.query)
+        self.assertTrue(isinstance(iterator.seller, dict))
+        self.assertTrue(isinstance(iterator.available_filters, list))
+        self.assertTrue(len(iterator.available_filters) > 0)
+
+        self.assertEqual(iterator.total_count, 70)
+        self.assertEqual(iterator.limit, None)
+        self.assertEqual(iterator.prev_offset, 0)
+        self.assertEqual(iterator.offset, 50)
+
+        obj1 = next(iterator)
+        self.assertTrue(isinstance(obj1, ItemResource))
+
+        self.assertEqual(obj1.id, "MLA508081074")
+        self.assertEqual(
+            obj1.title,
+            "Notebook Sony Vaio I3 6gb 750gb Tecl. Iluminado Fact. A O B")
+
+    def test_search_by_seller_id(self):
+        """Should search by seller ID and return an iterator"""
+        content = self.load_json_fixture(
+            "seller_by_nickname_laplata_notebooks.json")
+
+        with patch.object(BaseResource, '_get') as _mock:
+            response = MagicMock(spec=Response, ok=True, status_code=200)
+            response.json = MagicMock(return_value=content)
+            _mock.return_value = response
+
+            # High level API access
+            iterator = self.client.mla.search(seller_id="38726013")
+
+        args = _mock.call_args[1]
+        self.assertTrue('params' in args)
+
+        self.assertEqual(args['params'].get('seller_id'), '38726013')
 
         self.assertTrue(isinstance(iterator, BaseMercadoLibreIterator))
         self.assertIsNone(iterator.query)
