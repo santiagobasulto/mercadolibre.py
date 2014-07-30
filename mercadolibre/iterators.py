@@ -19,8 +19,17 @@ class BaseIterator(object):
 
         self.objects = self.get_objects()
 
+    def get_params(self):
+        return {}
+
+    def get_total_count(self, content):
+        return content['paging']['total_count']
+
+    def process_initial(self, content):
+        pass
+
     def get_objects(self):
-        params = {}
+        params = self.get_params()
         if self.offset:
             params['offset'] = self.offset
         if self.limit:
@@ -28,19 +37,19 @@ class BaseIterator(object):
 
         response = self.resource_class._get(
             self.resource_uri, credentials=self.credentials, params=params)
+
         if not response.ok:
             raise IteratorException()
 
         content = response.json()
         if self.total_count is None:
-            self.total_count = content['paging']['total_count']
+            self.total_count = self.get_total_count(content)
+            self.process_initial(content)
 
+        self.prev_offset = self.offset
         self.offset += content['paging']['limit']
 
         return content['results']
-
-    def get_total_count(self):
-        raise NotImplementedError()
 
     def __next__(self):
         if not self.objects:
@@ -66,3 +75,15 @@ class BaseIterator(object):
 
 class BaseMercadoLibreIterator(BaseIterator):
     pass
+
+
+class SearchableIterator(BaseMercadoLibreIterator):
+    def get_params(self):
+        return {'q': self.params['q']} if 'q' in self.params else {}
+
+    def get_total_count(self, content):
+        return content['paging']['total']
+
+    def process_initial(self, content):
+        self.query = content['query']
+        self.available_filters = content['available_filters']

@@ -1,5 +1,3 @@
-from unittest import TestCase
-
 from mock import patch, MagicMock
 from requests import Response
 

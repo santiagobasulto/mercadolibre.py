@@ -127,7 +127,8 @@ class BaseResource(object):
             response.json(), credentials=credentials)
 
     @classmethod
-    def get_collection(cls, sub_resource=None, params=None, credentials=None):
+    def get_collection(cls, iterator_resource_class=None, sub_resource=None,
+                       params=None, credentials=None):
         if params is None:
             params = {}
 
@@ -136,7 +137,8 @@ class BaseResource(object):
         IteratorClass = cls.get_iterator_for_collection()
 
         return IteratorClass(
-            cls, resource_uri, params=params, credentials=credentials)
+            iterator_resource_class or cls, resource_uri,
+            params=params, credentials=credentials)
 
     def get_resource_uri(self):
         """Normalized URI for resources.
@@ -168,13 +170,19 @@ class BaseResource(object):
 
 
 class SearchableResourceMixin(object):
+    @classmethod
+    def get_iterator_for_collection(cls):
+        from .iterators import SearchableIterator
+        return SearchableIterator
 
     @classmethod
-    def search(cls, offset=None, limit=None, sort_by=None, credentials=None):
+    def search(cls, q, offset=None, limit=None,
+               sort_by=None, credentials=None):
         kwargs = {
-            'sub_resource': 'search'
+            'sub_resource': 'search',
+            'iterator_resource_class': ItemResource
         }
-        params = {}
+        params = {'q': q}
         available_params = [
             ('offset', offset), ('limit', limit), ('sort_by', sort_by)
         ]
@@ -238,12 +246,10 @@ class ItemDescriptionResource(BaseSubResource):
 
 
 class SiteResource(BaseResource):
-    @classmethod
-    def search(cls, q, access_token=None):
-        return cls.get_collection('search', params={'q': q})
+    pass
 
 
-class MLASiteResource(SiteResource):
+class MLASiteResource(SearchableResourceMixin, SiteResource):
     RESOURCE_NAME = 'sites/MLA'
 
 
