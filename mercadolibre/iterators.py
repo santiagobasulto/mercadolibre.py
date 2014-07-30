@@ -19,9 +19,6 @@ class BaseIterator(object):
 
         self.objects = self.get_objects()
 
-    def get_params(self):
-        return {}
-
     def get_total_count(self, content):
         return content['paging']['total_count']
 
@@ -29,7 +26,7 @@ class BaseIterator(object):
         pass
 
     def get_objects(self):
-        params = self.get_params()
+        params = self.params or {}
         if self.offset:
             params['offset'] = self.offset
         if self.limit:
@@ -78,9 +75,6 @@ class BaseMercadoLibreIterator(BaseIterator):
 
 
 class SearchableIterator(BaseMercadoLibreIterator):
-    def get_params(self):
-        return {'q': self.params['q']} if 'q' in self.params else {}
-
     def get_total_count(self, content):
         return content['paging']['total']
 

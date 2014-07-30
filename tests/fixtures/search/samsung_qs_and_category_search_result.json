@@ -1,0 +1,195 @@
+{
+  "site_id": "MLA",
+  "query": "Samsung",
+  "paging": {
+    "total": 1,
+    "offset": 0,
+    "limit": 50
+  },
+  "results": [
+    {
+      "id": "MLA512445905",
+      "site_id": "MLA",
+      "title": "Samsung Gear Fit Para S4 S5 Note Ritmo Cardiaco",
+      "subtitle": null,
+      "seller": {
+        "id": 160449074,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 3300,
+      "currency_id": "ARS",
+      "available_quantity": 5,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T18:08:37.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512445905-samsung-gear-fit-para-s4-s5-note-ritmo-cardiaco-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/15890-MLA20109706120_062014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 420.72,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "",
+        "city_name": "VIcente Lopez"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "not_specified"
+      },
+      "seller_address": {
+        "id": 145971487,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "",
+          "name": "VIcente Lopez"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA12232"
+    }
+  ],
+  "secondary_results": [
+
+  ],
+  "related_results": [
+
+  ],
+  "sort": {
+    "id": "relevance",
+    "name": "M\u00e1s relevantes"
+  },
+  "available_sorts": [
+    {
+      "id": "price_asc",
+      "name": "Menor precio"
+    },
+    {
+      "id": "price_desc",
+      "name": "Mayor precio"
+    }
+  ],
+  "filters": [
+    {
+      "id": "category",
+      "name": "Categor\u00edas",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA12272",
+          "name": "Otros",
+          "path_from_root": [
+            {
+              "id": "MLA3937",
+              "name": "Joyas y Relojes"
+            },
+            {
+              "id": "MLA6750",
+              "name": "Puls\u00f3metros y Cron\u00f3metros"
+            },
+            {
+              "id": "MLA12272",
+              "name": "Otros"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "available_filters": [
+    {
+      "id": "state",
+      "name": "Ubicaci\u00f3n",
+      "type": "text",
+      "values": [
+        {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "accepts_mercadopago",
+      "name": "Filtro por MercadoPago",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con MercadoPago",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "installments",
+      "name": "Filtro por cuotas",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "En cuotas",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "condition",
+      "name": "Filtro por condici\u00f3n",
+      "type": "text",
+      "values": [
+        {
+          "id": "new",
+          "name": "Nuevo",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "buying_mode",
+      "name": "Filtro por tipo de venta",
+      "type": "text",
+      "values": [
+        {
+          "id": "buy_it_now",
+          "name": "Compra inmediata",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicaciones con im\u00e1genes",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con fotos",
+          "results": 1
+        }
+      ]
+    }
+  ]
+}

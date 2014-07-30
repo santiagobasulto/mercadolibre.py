@@ -16,9 +16,9 @@ from .base import BaseAuthenticatedTestCase
 _j = os.path.join
 
 
-class SearchItemsTestCase(BaseAuthenticatedTestCase):
+class BaseSearchTestCase(BaseAuthenticatedTestCase):
     def setUp(self):
-        super(SearchItemsTestCase, self).setUp()
+        super(BaseSearchTestCase, self).setUp()
         self.client = api.login(self.credentials)
 
     def load_json_fixture(self, file_name):
@@ -27,6 +27,8 @@ class SearchItemsTestCase(BaseAuthenticatedTestCase):
         with open(base_path, 'r') as f:
             return json.loads(f.read())
 
+
+class SearchItemsTestCase(BaseSearchTestCase):
     def test_search_by_query_string(self):
         """Should search by QS and return a Search object"""
         content = self.load_json_fixture("samsung_s3_search_result.json")
@@ -68,6 +70,43 @@ class SearchItemsTestCase(BaseAuthenticatedTestCase):
         self.assertEqual(
             obj2.title,
             "Celular Libre Samsung Galaxy S3 I9300 Quadcore 1.4ghz Led 4")
+
+    def test_search_by_query_string_and_category_with_id(self):
+        """Should search by QS and return a Search object"""
+        content = self.load_json_fixture(
+            "samsung_qs_and_category_search_result.json")
+
+        with patch.object(BaseResource, '_get') as _mock:
+            response = MagicMock(spec=Response, ok=True, status_code=200)
+            response.json = MagicMock(return_value=content)
+            _mock.return_value = response
+
+            # High level API access
+            iterator = self.client.mla.search(
+                q="Samsung", category_id="MLA12272")
+
+        args = _mock.call_args[1]
+        self.assertTrue('params' in args)
+        self.assertEqual(args['params'].get('q'), 'Samsung')
+        self.assertEqual(args['params'].get('category'), 'MLA12272')
+
+        self.assertTrue(isinstance(iterator, BaseMercadoLibreIterator))
+        self.assertEqual(iterator.query, 'Samsung')
+        self.assertTrue(isinstance(iterator.available_filters, list))
+        self.assertTrue(len(iterator.available_filters) > 0)
+
+        self.assertEqual(iterator.total_count, 1)
+        self.assertEqual(iterator.limit, None)
+        self.assertEqual(iterator.prev_offset, 0)
+        self.assertEqual(iterator.offset, 50)
+
+        obj1 = next(iterator)
+        self.assertTrue(isinstance(obj1, ItemResource))
+
+        self.assertEqual(obj1.id, "MLA512445905")
+        self.assertEqual(
+            obj1.title,
+            "Samsung Gear Fit Para S4 S5 Note Ritmo Cardiaco")
 
 
 spec = """
