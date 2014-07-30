@@ -108,14 +108,50 @@ class SearchItemsTestCase(BaseSearchTestCase):
             obj1.title,
             "Samsung Gear Fit Para S4 S5 Note Ritmo Cardiaco")
 
+    def test_search_by_seller_nickname(self):
+        """Should search by QS and return a Search object"""
+        content = self.load_json_fixture(
+            "seller_by_nickname_laplata_notebooks.json")
+
+        with patch.object(BaseResource, '_get') as _mock:
+            response = MagicMock(spec=Response, ok=True, status_code=200)
+            response.json = MagicMock(return_value=content)
+            _mock.return_value = response
+
+            # High level API access
+            iterator = self.client.mla.search(nickname="LAPLATA-NOTEBOOKS")
+
+        args = _mock.call_args[1]
+        self.assertTrue('params' in args)
+
+        self.assertEqual(args['params'].get('nickname'), 'LAPLATA-NOTEBOOKS')
+
+        self.assertTrue(isinstance(iterator, BaseMercadoLibreIterator))
+        self.assertIsNone(iterator.query)
+        self.assertTrue(isinstance(iterator.seller, dict))
+        self.assertTrue(isinstance(iterator.available_filters, list))
+        self.assertTrue(len(iterator.available_filters) > 0)
+
+        self.assertEqual(iterator.total_count, 70)
+        self.assertEqual(iterator.limit, None)
+        self.assertEqual(iterator.prev_offset, 0)
+        self.assertEqual(iterator.offset, 50)
+
+        obj1 = next(iterator)
+        self.assertTrue(isinstance(obj1, ItemResource))
+
+        self.assertEqual(obj1.id, "MLA508081074")
+        self.assertEqual(
+            obj1.title,
+            "Notebook Sony Vaio I3 6gb 750gb Tecl. Iluminado Fact. A O B")
+
 
 spec = """
 ml.mla.search(q="Jawbone Up24")  # Done
-ml.mla.search(q="Jawbone Up24", category=ml.categories.get(id='MLA12345')) ?
 
 # By Category
-ml.mla.search(category_id='MLA12345')
-ml.mla.search(category=ml.categories.get(id='MLA12345'))
+ml.mla.search(category_id='MLA12345')  # Done
+ml.mla.search(category=ml.categories.get(id='MLA12345'))  # Won't fix
 
 # By Seller
 ml.mla.search(nickname='SANBASULTO_04')

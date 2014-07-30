@@ -160,16 +160,18 @@ def me(state, **kwargs):
 
 
 @main.command()
-@click.argument('q')
+@click.option('-q', '--query', help="The querystring to search for")
 @click.option('-c', '--category-id',
               help="The ID of the category to restrict your search")
+@click.option('-n', '--nickname',
+              help="Nickname of the seller you want to search items from")
 @common_options
 @pass_state
-def search(state, q, category_id, **kwargs):
+def search(state, query, category_id, nickname, **kwargs):
     ml = api.login(
         app_id=state.app_id, app_secret=state.app_secret,
         access_token=state.access_token)
-    search = ml.mla.search(q=q, category_id=category_id)
+    search = ml.mla.search(q=query, category_id=category_id, nickname=nickname)
     result_txt = "result{0}".format(((search.total_count > 1 and "s") or ""))
     click.echo(
         "Your search returned {0} {1}.".format(search.total_count, result_txt))

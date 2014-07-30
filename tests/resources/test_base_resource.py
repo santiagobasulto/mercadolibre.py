@@ -10,6 +10,11 @@ from ..fixtures import dummy_fixtures
 class DummyResource(SearchableResourceMixin, BaseResource):
     RESOURCE_NAME = 'dummy'
 
+    @classmethod
+    def get_iterator_for_collection(cls):
+        from mercadolibre.iterators import BaseMercadoLibreIterator
+        return BaseMercadoLibreIterator
+
 
 class TestBaseResourceInitialization(BaseAuthenticatedTestCase):
 

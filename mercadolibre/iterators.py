@@ -79,5 +79,6 @@ class SearchableIterator(BaseMercadoLibreIterator):
         return content['paging']['total']
 
     def process_initial(self, content):
-        self.query = content['query']
-        self.available_filters = content['available_filters']
+        self.query = content.get('query', None)
+        self.seller = content.get('seller', None)
+        self.available_filters = content.get('available_filters', None)

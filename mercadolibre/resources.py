@@ -176,16 +176,17 @@ class SearchableResourceMixin(object):
         return SearchableIterator
 
     @classmethod
-    def search(cls, q, category_id=None, offset=None, limit=None,
+    def search(cls, q=None, category_id=None, nickname=None,
+               offset=None, limit=None,
                sort_by=None, credentials=None):
         kwargs = {
             'sub_resource': 'search',
             'iterator_resource_class': ItemResource
         }
-        params = {'q': q}
+        params = {}
         available_params = [
+            ('q', q), ('category', category_id), ('nickname', nickname),
             ('offset', offset), ('limit', limit), ('sort_by', sort_by),
-            ('category', category_id)
         ]
         for name, value in available_params:
             if value is not None:

@@ -1,0 +1,3391 @@
+{
+  "site_id": "MLA",
+  "seller": {
+    "id": 38726013,
+    "seller_reputation": {
+      "power_seller_status": null
+    },
+    "real_estate_agency": false,
+    "car_dealer": false
+  },
+  "paging": {
+    "total": 70,
+    "offset": 0,
+    "limit": 50
+  },
+  "results": [
+    {
+      "id": "MLA508081074",
+      "site_id": "MLA",
+      "title": "Notebook Sony Vaio I3 6gb 750gb Tecl. Iluminado Fact. A O B",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 8999,
+      "currency_id": "ARS",
+      "available_quantity": 5,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold",
+      "stop_time": "2014-09-16T11:18:25.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-508081074-notebook-sony-vaio-i3-6gb-750gb-tecl-iluminado-fact-a-o-b-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/15349-MLA20100170452_052014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 1147.3,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA81519"
+    },
+    {
+      "id": "MLA510243559",
+      "site_id": "MLA",
+      "title": "Notebook Lenovo Thinkpad E440 I5 Garantia 3 A\u00f1os! Fact A O B",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 15999,
+      "currency_id": "ARS",
+      "available_quantity": 9,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "silver",
+      "stop_time": "2014-08-05T13:29:23.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-510243559-notebook-lenovo-thinkpad-e440-i5-garantia-3-anos-fact-a-o-b-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/15707-MLA20108500801_062014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 2039.74,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA81386"
+    },
+    {
+      "id": "MLA515809605",
+      "site_id": "MLA",
+      "title": "Memorias Ddr 1 Gb Kingston Pc 400 Mhz Stock! Fact A La Plata",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 178,
+      "currency_id": "ARS",
+      "available_quantity": 85,
+      "sold_quantity": 15,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "silver",
+      "stop_time": "2014-09-16T11:27:45.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-515809605-memorias-ddr-1-gb-kingston-pc-400-mhz-stock-fact-a-la-plata-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/16958-MLA20129774363_072014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 22.69,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA7640"
+    },
+    {
+      "id": "MLA516570352",
+      "site_id": "MLA",
+      "title": "Fuente Sony Vgp-ac19v9 19.5v 7.7a -la Plata Notebooks-",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 1299,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "silver",
+      "stop_time": "2014-09-21T18:48:58.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-516570352-fuente-sony-vgp-ac19v9-195v-77a-la-plata-notebooks--_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/10880-MLA20035774894_012014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 165.61,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA38952"
+    },
+    {
+      "id": "MLA510669269",
+      "site_id": "MLA",
+      "title": "Pantalla Display Lcd 15.4 Lp154wa01 Lp154wx1-2-3-4 Fact A B",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 890,
+      "currency_id": "ARS",
+      "available_quantity": 99,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "silver",
+      "stop_time": "2014-08-08T16:44:03.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-510669269-pantalla-display-lcd-154-lp154wa01-lp154wx1-2-3-4-fact-a-b-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/15831-MLA20109988369_062014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 113.47,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA56533"
+    },
+    {
+      "id": "MLA515810217",
+      "site_id": "MLA",
+      "title": "Memorias Ddr2 1 Gb Kingston Pc Fac A O B Garantia La Plata",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 149,
+      "currency_id": "ARS",
+      "available_quantity": 99,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "silver",
+      "stop_time": "2014-09-16T11:39:47.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-515810217-memorias-ddr2-1-gb-kingston-pc-fac-a-o-b-garantia-la-plata-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/16988-MLA20129781848_072014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 19,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA7640"
+    },
+    {
+      "id": "MLA510384208",
+      "site_id": "MLA",
+      "title": "Display Notebook 15.6 Led Slim Samsung Especial La Plata",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 1799,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-06T12:41:49.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-510384208-display-notebook-156-led-slim-samsung-especial-la-plata-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/11860-MLA20050874456_022014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 229.36,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA56547"
+    },
+    {
+      "id": "MLA516649128",
+      "site_id": "MLA",
+      "title": "Bater\u00eda Hp Cq Dv2000 Dv6000 V3000 V6000 - La Plata Notebooks",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 949,
+      "currency_id": "ARS",
+      "available_quantity": 1,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-22T12:43:16.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-516649128-bateria-hp-cq-dv2000-dv6000-v3000-v6000-la-plata-notebooks-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/13585-MLA3429192885_112012-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 120.99,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA11815"
+    },
+    {
+      "id": "MLA512388587",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv6700",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 1,
+      "sold_quantity": 2,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:12:01.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388587-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv6700-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14185-MLA6183297308_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388422",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv4000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 1,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:11:16.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388422-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv4000-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14278-MLA6183405235_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA509949850",
+      "site_id": "MLA",
+      "title": "Samsung Gtab3 | 7'' | Sm-t210 | 8gb La Plata Notebooks",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 2999,
+      "currency_id": "ARS",
+      "available_quantity": 10,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-03T10:39:46.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-509949850-samsung-gtab3-7-sm-t210-8gb-la-plata-notebooks-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/11358-MLA20042262016_022014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 382.35,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": true,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA93443"
+    },
+    {
+      "id": "MLA509521533",
+      "site_id": "MLA",
+      "title": "Placa De Video Asus Gtx650ti 1gd5 | 1gb La Plata Notebooks",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 3299,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-07-31T12:10:42.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-509521533-placa-de-video-asus-gtx650ti-1gd5-1gb-la-plata-notebooks-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/11236-MLA20041053588_012014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 420.6,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA75550"
+    },
+    {
+      "id": "MLA509531372",
+      "site_id": "MLA",
+      "title": "Pantalla 18.5 All In One Nuevas La Plata Notebooks",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 1899,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-07-31T14:32:07.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-509531372-pantalla-185-all-in-one-nuevas-la-plata-notebooks-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/13151-MLA20073240460_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 242.11,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA56547"
+    },
+    {
+      "id": "MLA514489436",
+      "site_id": "MLA",
+      "title": "Lenovo Thinkpad E430 I5-3210m 8gb ! La Plata Notebooks",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 14526,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-06T14:38:40.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-514489436-lenovo-thinkpad-e430-i5-3210m-8gb-la-plata-notebooks-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/10469-MLA20029428957_012014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 1851.94,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA81386"
+    },
+    {
+      "id": "MLA512387904",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp G42",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 300,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:15.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387904-repuestos-cover-flex-bisagras-cooler-notebook-hp-g42-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14206-MLA6183407339_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 38.25,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388612",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Netbook Hp Mini 110",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:12:12.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388612-repuestos-cover-flex-bisagras-cooler-netbook-hp-mini-110-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14202-MLA6183163187_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388069",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp 425",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:51.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388069-repuestos-cover-flex-bisagras-cooler-notebook-hp-425-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14270-MLA6183407040_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388325",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp 530",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:10:53.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388325-repuestos-cover-flex-bisagras-cooler-notebook-hp-530-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14250-MLA6183383175_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387420",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq Cq42",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:07:12.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387420-repuestos-cover-flex-bisagras-cooler-notebook-compaq-cq42-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14192-MLA6183409892_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388114",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv7-1000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 450,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:10:18.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388114-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv7-1000-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14200-MLA6183384643_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 57.37,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388517",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp 550",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:11:48.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388517-repuestos-cover-flex-bisagras-cooler-notebook-hp-550-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14262-MLA6183298165_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388040",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp 420",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:42.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388040-repuestos-cover-flex-bisagras-cooler-notebook-hp-420-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14276-MLA6183410391_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388225",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv5",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:10:29.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388225-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv5-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14249-MLA6183405839_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA514702447",
+      "site_id": "MLA",
+      "title": "Notebook Lenovo Thinkpad X230 | I5-3210 | 12,5'' La Plata",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 12499,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-08T13:30:27.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-514702447-notebook-lenovo-thinkpad-x230-i5-3210-125-la-plata-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/12544-MLA20061513147_032014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 1593.52,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA81385"
+    },
+    {
+      "id": "MLA512388523",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv2000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:11:54.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388523-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv2000-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14245-MLA6183297784_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388079",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv6-3000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 450,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:54.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388079-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv6-3000-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14186-MLA6183385092_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 57.37,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387871",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv4-2013la",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:09.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387871-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv4-2013la-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14235-MLA6183410695_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387264",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq Cq60",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:06:31.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387264-repuestos-cover-flex-bisagras-cooler-notebook-compaq-cq60-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14279-MLA6183435658_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387120",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq Cq40",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:05:50.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387120-repuestos-cover-flex-bisagras-cooler-notebook-compaq-cq40-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14208-MLA6183436278_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387498",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq V3500",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:07:47.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387498-repuestos-cover-flex-bisagras-cooler-notebook-compaq-v3500-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14270-MLA6183409490_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387977",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp G62",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:28.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387977-repuestos-cover-flex-bisagras-cooler-notebook-hp-g62-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14250-MLA6183410259_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388096",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv6",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 450,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:10:02.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388096-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv6-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14196-MLA6183384781_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 57.37,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA516665558",
+      "site_id": "MLA",
+      "title": "Lectograbador Cd\/dvd Sata - La Plata Notebooks Garant\u00eda",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 299,
+      "currency_id": "ARS",
+      "available_quantity": 9,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-22T14:46:18.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-516665558-lectograbador-cddvd-sata-la-plata-notebooks-garantia-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/4166-MLA2685493836_052012-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 38.12,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA83404"
+    },
+    {
+      "id": "MLA512387564",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq C700",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:08:07.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387564-repuestos-cover-flex-bisagras-cooler-notebook-compaq-c700-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14232-MLA6183409306_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388442",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Tx1000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:11:28.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388442-repuestos-cover-flex-bisagras-cooler-notebook-hp-tx1000-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14274-MLA6183404389_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388256",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv6000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:10:38.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388256-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv6000-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14199-MLA6183404686_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387238",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Netbook Compaq Cq10",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:06:24.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387238-repuestos-cover-flex-bisagras-cooler-netbook-compaq-cq10-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14212-MLA6183415139_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387288",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq V2000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:06:44.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387288-repuestos-cover-flex-bisagras-cooler-notebook-compaq-v2000-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14190-MLA6183414790_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA516661535",
+      "site_id": "MLA",
+      "title": "Notebook Para Repuestos O Partes Acer 5520 -",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-22T14:20:59.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-516661535-notebook-para-repuestos-o-partes-acer-5520--_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/12996-MLA6047635208_032014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA53927"
+    },
+    {
+      "id": "MLA515719839",
+      "site_id": "MLA",
+      "title": "Lectograbador Cd\/dvd Ide - La Plata Notebooks Garant\u00eda",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 299,
+      "currency_id": "ARS",
+      "available_quantity": 8,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-15T17:18:11.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-515719839-lectograbador-cddvd-ide-la-plata-notebooks-garantia-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/4166-MLA2685493836_052012-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 38.12,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA83404"
+    },
+    {
+      "id": "MLA512387723",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv4-1212la",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:08:39.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387723-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv4-1212la-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14189-MLA6183408182_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512388133",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv5-1000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:10:24.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512388133-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv5-1000-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14232-MLA6183405947_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387278",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq Cq50",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:06:38.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387278-repuestos-cover-flex-bisagras-cooler-notebook-compaq-cq50-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14197-MLA6183435773_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387756",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Tx2",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:08:48.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387756-repuestos-cover-flex-bisagras-cooler-notebook-hp-tx2-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14237-MLA6183411444_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387614",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq 515",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:08:13.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387614-repuestos-cover-flex-bisagras-cooler-notebook-compaq-515-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14202-MLA6183412846_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387841",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp Dv9000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:09:03.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387841-repuestos-cover-flex-bisagras-cooler-notebook-hp-dv9000-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14214-MLA6183408028_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387697",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Hp 6910p",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 350,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:08:26.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387697-repuestos-cover-flex-bisagras-cooler-notebook-hp-6910p-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14248-MLA6183412409_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 44.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA516665736",
+      "site_id": "MLA",
+      "title": "Disco Rigido Sata2 500gb. - La Plata Notebooks Garant\u00eda",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 899,
+      "currency_id": "ARS",
+      "available_quantity": 2,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-09-22T14:47:07.000Z",
+      "condition": "new",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-516665736-disco-rigido-sata2-500gb-la-plata-notebooks-garantia-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/4161-MLA2585268770_042012-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 114.62,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": -34.91892,
+        "longitude": -57.944218
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA57497"
+    },
+    {
+      "id": "MLA512387336",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq M2000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:07:05.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387336-repuestos-cover-flex-bisagras-cooler-notebook-compaq-m2000-_JM",
+      "thumbnail": "http:\/\/mla-s2-p.mlstatic.com\/14275-MLA6183414392_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    },
+    {
+      "id": "MLA512387456",
+      "site_id": "MLA",
+      "title": "Repuestos Cover Flex Bisagras Cooler Notebook Compaq V3000",
+      "subtitle": null,
+      "seller": {
+        "id": 38726013,
+        "power_seller_status": null,
+        "car_dealer": false,
+        "real_estate_agency": false
+      },
+      "price": 250,
+      "currency_id": "ARS",
+      "available_quantity": 3,
+      "sold_quantity": 0,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "bronze",
+      "stop_time": "2014-08-22T13:07:27.000Z",
+      "condition": "used",
+      "permalink": "http:\/\/articulo.mercadolibre.com.ar\/MLA-512387456-repuestos-cover-flex-bisagras-cooler-notebook-compaq-v3000-_JM",
+      "thumbnail": "http:\/\/mla-s1-p.mlstatic.com\/14223-MLA6183409407_042014-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": {
+        "quantity": 12,
+        "amount": 31.87,
+        "currency_id": "ARS"
+      },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0xBUGxhdGE",
+        "city_name": "La Plata"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2"
+      },
+      "seller_address": {
+        "id": 122575249,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBQ0xBUGxhdGE",
+          "name": "La Plata"
+        },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+
+      ],
+      "original_price": null,
+      "category_id": "MLA82335"
+    }
+  ],
+  "secondary_results": [
+
+  ],
+  "related_results": [
+
+  ],
+  "sort": {
+    "id": "relevance",
+    "name": "M\u00e1s relevantes"
+  },
+  "available_sorts": [
+    {
+      "id": "price_asc",
+      "name": "Menor precio"
+    },
+    {
+      "id": "price_desc",
+      "name": "Mayor precio"
+    }
+  ],
+  "filters": [
+    {
+      "id": "category",
+      "name": "Categor\u00edas",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA1648",
+          "name": "Computaci\u00f3n",
+          "path_from_root": [
+            {
+              "id": "MLA1648",
+              "name": "Computaci\u00f3n"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "available_filters": [
+    {
+      "id": "category",
+      "name": "Categor\u00edas",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA4072",
+          "name": "Notebooks y Accesorios",
+          "results": 60
+        },
+        {
+          "id": "MLA3794",
+          "name": "Componentes de PC",
+          "results": 3
+        },
+        {
+          "id": "MLA1694",
+          "name": "Memorias RAM",
+          "results": 2
+        },
+        {
+          "id": "MLA5892",
+          "name": "Netbooks y Accesorios",
+          "results": 2
+        },
+        {
+          "id": "MLA2141",
+          "name": "Impresoras y Accesorios",
+          "results": 1
+        },
+        {
+          "id": "MLA4980",
+          "name": "Pen Drives",
+          "results": 1
+        },
+        {
+          "id": "MLA82085",
+          "name": "iPad y Tablets",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "Ubicaci\u00f3n",
+      "type": "text",
+      "values": [
+        {
+          "id": "TUxBUEdSQXJlMDNm",
+          "name": "Bs.As. G.B.A. Sur",
+          "results": 70
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "name": "Rango de precios",
+      "type": "range",
+      "values": [
+        {
+          "id": "*-250.0",
+          "name": "Hasta $ 250",
+          "results": 2
+        },
+        {
+          "id": "250.0-400.0",
+          "name": "$250 a $400",
+          "results": 45
+        },
+        {
+          "id": "400.0-*",
+          "name": "M\u00e1s de $400",
+          "results": 23
+        }
+      ]
+    },
+    {
+      "id": "accepts_mercadopago",
+      "name": "Filtro por MercadoPago",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con MercadoPago",
+          "results": 70
+        }
+      ]
+    },
+    {
+      "id": "installments",
+      "name": "Filtro por cuotas",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "En cuotas",
+          "results": 70
+        }
+      ]
+    },
+    {
+      "id": "condition",
+      "name": "Filtro por condici\u00f3n",
+      "type": "text",
+      "values": [
+        {
+          "id": "new",
+          "name": "Nuevo",
+          "results": 20
+        },
+        {
+          "id": "used",
+          "name": "Usado",
+          "results": 50
+        }
+      ]
+    },
+    {
+      "id": "shipping",
+      "name": "Env\u00edo",
+      "type": "text",
+      "values": [
+        {
+          "id": "mercadoenvios",
+          "name": "MercadoEnv\u00edos",
+          "results": 70
+        },
+        {
+          "id": "free",
+          "name": "Env\u00edo gratis",
+          "results": 4
+        }
+      ]
+    },
+    {
+      "id": "buying_mode",
+      "name": "Filtro por tipo de venta",
+      "type": "text",
+      "values": [
+        {
+          "id": "buy_it_now",
+          "name": "Compra inmediata",
+          "results": 70
+        }
+      ]
+    },
+    {
+      "id": "until",
+      "name": "Filtro por fecha de finalizaci\u00f3n",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Finalizan hoy",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "has_video",
+      "name": "Filtro por publicaciones con video",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Publicaciones con video",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicaciones con im\u00e1genes",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con fotos",
+          "results": 70
+        }
+      ]
+    }
+  ]
+}
