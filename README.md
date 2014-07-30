@@ -7,7 +7,6 @@ Improved Python client for MercadoLibre API.
 I've created a simple CLI client to ease your testing and development. It's also a great example of how to use `mercadolibre.py`.
 
 ```bash
-
 # Create a test user
 $ python simple_client.py create_test_user --access-token YOUR_ACCESS_TOKEN
 
@@ -16,10 +15,9 @@ $ python simple_client.py create_test_item data.json --access-token YOUR_ACCESS_
 
 # Search all items containing the string "Jawbone Up24"
 $ python simple_client.py search -q "Jawbone Up24"
-
 ```
 
-To use it you'll need an `APP_ID`, an `APP_SECRET` and an `ACCESS_TOKEN`. You'll find more information to get it on the [MercadoLibre documentation site](http://developers.mercadolibre.com/first-step/).
+To use it you'll need an `APP_ID`, an `APP_SECRET` and (sometimes) an `ACCESS_TOKEN`. You'll find more information to get it on the [MercadoLibre documentation site](http://developers.mercadolibre.com/first-step/).
 
 To make your life easier you can configure your client to get your `APP_ID` and `APP_SECRET` from envvars. Just issue these commands (or add them to your `.bashrc` or similar). Example:
 
@@ -65,8 +63,6 @@ $ python simple_client.py search -s 38726013
 ## Run tests
 
 ```bash
-
 # -s doesn't captures output. You'll be able to ipdb and print in your tests.
 $ py.test -s tests/resources/test_items.py::ItemResourceHighLevelTestCase::test_some_method
-
 ```
