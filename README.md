@@ -17,7 +17,7 @@ $ python simple_client.py create_test_item data.json --access-token YOUR_ACCESS_
 $ python simple_client.py search -q "Jawbone Up24"
 ```
 
-To use it you'll need an `APP_ID`, an `APP_SECRET` and (sometimes) an `ACCESS_TOKEN`. You'll find more information to get it on the [MercadoLibre documentation site](http://developers.mercadolibre.com/first-step/).
+To use it you'll need an `APP_ID`, an `APP_SECRET` and (sometimes) an `ACCESS_TOKEN`. You'll find more information on how to get them on the [MercadoLibre documentation site](http://developers.mercadolibre.com/first-step/).
 
 To make your life easier you can configure your client to get your `APP_ID` and `APP_SECRET` from envvars. Just issue these commands (or add them to your `.bashrc` or similar). Example:
 
