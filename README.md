@@ -28,7 +28,8 @@ You'll need to provide the data for your item in a json file (or you could just 
 $ python simple_client.py create_test_item data.json --access-token YOUR_ACCESS_TOKEN
 ```
 
-**Search*
+**Search**
+
 ```bash
 
 # By Querystring
@@ -42,6 +43,9 @@ $ python simple_client.py search -c MLA12272
 
 # By Seller Nickname
 $ python simple_client.py search -n "LAPLATA-NOTEBOOKS"
+
+# By Seller ID
+$ python simple_client.py search -s 38726013
 
 ```
 

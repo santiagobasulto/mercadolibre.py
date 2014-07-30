@@ -191,7 +191,7 @@ ml.mla.search(category_id='MLA12345')  # Done
 ml.mla.search(category=ml.categories.get(id='MLA12345'))  # Won't fix
 
 # By Seller
-ml.mla.search(nickname='SANBASULTO_04')
-ml.mla.search(seller_id='MLA12345')
-ml.mla.search(seller=ml.mla.users.get(id='MLA12345'))
+ml.mla.search(nickname='SANBASULTO_04')  # Done
+ml.mla.search(seller_id='MLA12345')  # Done
+ml.mla.search(seller=ml.mla.users.get(id='MLA12345'))  # Won't fix
 """
