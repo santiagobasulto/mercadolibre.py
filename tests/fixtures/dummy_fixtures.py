@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 DUMMY_COLLECTION_FROM_MLA_SEARCH = {
     "site_id": "MLA",
     "query": "ipod",

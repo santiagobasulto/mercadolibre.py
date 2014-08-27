@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Well known category
 CATEGORY_ID = "MLA32198"
 

@@ -69,6 +69,9 @@ class BaseIterator(object):
     def __iter__(self):
         return self
 
+    # Python 2
+    next = __next__
+
 
 class BaseMercadoLibreIterator(BaseIterator):
     pass
