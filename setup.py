@@ -6,12 +6,6 @@ VERSION = '0.1.0'
 from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
-with open('README.md', 'r') as f:
-    readme = f.read()
-
-with open('requirements.txt', 'r') as f:
-    requires = f.read()
-
 
 class PyTest(TestCommand):
     user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
@@ -37,7 +31,6 @@ setup(
     name='mercadolibre.py',
     version=VERSION,
     description='Mercadolibre Python SDK (for humans)',
-    long_description=readme,
     author='Santiago Basulto',
     author_email="santiago.basulto@gmail.com",
     packages=['mercadolibre'],
