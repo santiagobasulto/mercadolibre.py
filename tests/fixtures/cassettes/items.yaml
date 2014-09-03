@@ -1,0 +1,122 @@
+interactions:
+- request:
+    body: '{"warranty": "Garantia oficial HP Argentina.", "description": "Super description",
+      "price": 188, "buying_mode": "buy_it_now", "currency_id": "ARS", "accepts_mercadopago":
+      true, "available_quantity": 3, "condition": "new", "title": "TEST HP CARTUCHO
+      122 COLOR (CH562HL)", "pictures": [{"source": "http://mla-s2-p.mlstatic.com/pantalla-display-lenovo-g450-460-470-140-led-hd-wide-4484-MLA4914380959_082013-O.jpg"}],
+      "non_mercado_pago_payment_methods": [{"type": "G", "description": "Transferencia
+      bancaria", "id": "MLATB"}, {"type": "N", "description": "Tarjeta de cr\\u00e9dito",
+      "id": "MLAOT"}, {"type": "G", "description": "Acordar con el comprador", "id":
+      "MLAWC"}, {"type": "G", "description": "Efectivo", "id": "MLAMO"}], "listing_type_id":
+      "bronze", "category_id": "MLA32198"}'
+    headers:
+      Accept: [application/json]
+      Accept-Charset: [utf-8]
+      Accept-Encoding: ['gzip, deflate']
+      Content-Length: ['781']
+      Content-type: [application/json]
+      User-Agent: [mercadolibre.py]
+    method: POST
+    uri: https://api.mercadolibre.com:443/items/?access_token=APP_USR-554056882653189-090315-a4b5c6abb23a6633c40774301c2e28a5__M_F__-165949089
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/61W/W7bNhB/FYF/FBtgOfqwHNtAMDhelnZYmn44G5ahIGiKlthSpEZSdpzAD7Tn
+        2IvtKMmWPa9tCsyAbfF0H7zf3f3IJ8RTNEE3v0yTKEri88FghHrIcMvw7gWsLbeCwWrOjPVelt6M
+        aFvRXHlhFHkzJZT2vqN5Moxy8b0zrxathayEgDUTgunaYThMxoNxMBr3ECWWZUpv9oHiKBy76Gq5
+        5JQTgY1VutlH46fUnILTcDTqoQUxDB8KlOYZl2DVChsTWmnNJG2DTN+9B/9ccuvc/1kRCfvcoEnc
+        Q2RFuCALwY7FRon0QBJA4GrDZYYLlTpEYIW5xVKtwbHgxrp3dlO28C20ko/MQWIBMmx54YyiIBz4
+        wdgP4nk4nkTnk/C8fx7G97WeKo/UwtAPohM1JtNnaFElU0hVSVCTzO2wZLoggstPIMmtLSdnZ7Av
+        Tiuh+gXTlKRK8IVmfaqKPtFnUBV/3xi+hfL7eenTtvw+lN+nrvx+W30f/3zj+iWvioUEQLsw6/X6
+        JMLZx+KMF9kP5uL9fPZidfHqxfKi1IpSZhyMvCAZw8z0P5aZg4ZBMRn+t2/zvzgvObXg3aDJH0/7
+        kRiOozgMwngY4mDscAbFSn9jUrfPSarz+tx0vuKWP7reSILgAb4gKMgDPhFCX4u6rRHafuihFU+Z
+        Ohi3lBmqeeka6BiXriOGSRhG4ShIagcEdlNag9u9lyRTaGJ1xXpIKrkTYyeHn03BpAWhzVV67H9+
+        iY6iO+bRRJolc7PMibcgEnqQE9dqMGvw/hpte52D2/mpA6I/Mku8lHlU//0XzIXqrF8fWf82O7Ge
+        UqVToj2YKI8J+CtKDanoz23g5vbExdWSUctX6sgEQDM5L0soIZo8oZZUpLLYlIzyJWep4xVFHa9x
+        +glXJZosiTAA6VIzhjvrVtrhCb5ToAhpmvq5mm73XEzSFLrduKA1LQ/G58lgWNOyKlxhXFNARRs1
+        DJSx5/9pIwPuj0HjkZeYNtsOB/WE0LqlWixgLUnNU28IxC0U2tZkaNleZfrOn3VqM1JyS4T3E0uZ
+        JsKpU1VJqzcHBp36VGewWeB9pygIsHTl9uLHg34ygs/YoSeznTgZ9QdxkCRDBwTRNMcO26ZCT8CR
+        PMsXSudKpfto87uHy7fi8nL+46vwZv4r+c+MjnKuLYLXl3fX9+L+OjS/v/1iesdoOOO7K2e8jm+i
+        q/ALptuunNCXllC7m9yDpEAnY+owy29AqQZ/BdGAW4hmpG0rYq3mi8qydr0794yqtDt6XdVXbj53
+        1PGhybIybXNvmMXETQNrbgt499ZpWpK1T2uiYexrgrom7glGXzV3A+/lG29f+z6qbxNEqAxOf5VW
+        1B7Q2A6iCs7WAsNIie5CAUkBB8FtpzjkPb6smaa+JLjbRD1fO04EGd/NF6nAJWRJsWYOhP0UplBS
+        TAExy9LPHPijYOTOaEGMhalOv6a5/Qf8PZpLqgkAAA==
+    headers:
+      access-control-allow-headers: [Content-Type]
+      access-control-allow-methods: ['PUT, GET, POST, DELETE, OPTIONS']
+      access-control-allow-origin: ['*']
+      access-control-max-age: ['86400']
+      cache-control: [max-age=0]
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-length: ['1114']
+      content-type: [application/json;charset=UTF-8]
+      date: ['Wed, 03 Sep 2014 19:27:17 GMT']
+      etag: [ec6c2e73205910265e0c0feb916716e0]
+      location: ['https://api.mercadolibre.com/items/MLA522537448']
+      vary: ['Accept,Accept-Encoding']
+      x-api-name: [syi-api]
+      x-api-version: ['1.00']
+      x-gav: [master]
+      x-libra-upstreamhost: [172.16.146.136]
+      x-nginx-host: [e-00001cf1]
+      x-nginx-pool: [items-api-webserver-write-master]
+      x-nginx-upstreamhost: ['172.16.38.89:80']
+      x-request-id: [04e8b98e-8112-40e5-b1b2-585133042328]
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Charset: [utf-8]
+      Accept-Encoding: ['gzip, deflate']
+      Content-type: [application/json]
+      User-Agent: [mercadolibre.py]
+    method: GET
+    uri: https://api.mercadolibre.com:443/items/MLA522537448/?access_token=APP_USR-554056882653189-090315-a4b5c6abb23a6633c40774301c2e28a5__M_F__-165949089
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/5VW727bNhB/FYEfig2wHEmWHNtAMDhZlqZYmrZzNixDQdAULTGlSI2k7DiBH2jP
+        sRfbUZIte17TLB+S8HR/f3f3I58RT9EE3fw8TaIoGZzG8Qj1kOGW4e0HOFtuBYPTjBnrvS29C6Jt
+        RXPlhVHkXSihtPcdzZNhlIvvnXk1by1kJQScmRBM1w7DYTKOx8Fo3EOUWJYpvd4FGkTh2EVXiwWn
+        nAhsrNJNHo2fUnMKTsPRqIfmxDC8L1CaZ1yCVStsTGilNZO0DTL99Av455Jb5/7PikjIc40mgx4i
+        S8IFmQt2KDZKpHuSAAJXay4zXKjUIQInzC2WagWOBTfWfbPrsoVvrpV8Yg4SC5BhywtnFAVh7Adj
+        PxjMwvEkOp2Ep/0gCO5rPVUeqIWhH0RHakymr9CiSqZQqpKgJpnLsGS6IILLLyDJrS0nJyeQF6eV
+        UP2CaUpSJfhcsz5VRZ/oE+iKvxsM30L7/bz0adt+H9rvU9d+v+2+j9/duHnJq2IuAdAuDC+yqF8I
+        wAHCOfcnBoN3vMTXeIGH42gQBuFgGOJg7CrqP5SZg4NBAxn+tz8DDler1VHKJw+FC/SDOQPXb5Zn
+        128WZ19zXXJqwbdBkz+ed0twpAyKlX5VGbffLqPz9NoCbl8owPAn1/84SR7jwCVakEd8JITZFfXo
+        IrT53ENLnjK1t1IpM1Tz0g3JIRJd14dJGEbhKEhqB4RSVlqD28xLkik0sbpiPSSV3Iqxk8OvdcGk
+        BaHNVXrof3aODqI7dtFEmgVz+8qJNycS5owTN06wT/D9Cm16nYPb2bEDoh+YJV7KPKr//gtmX3XW
+        7w+sf7s4sp5SpVOiPdgajwn4U5QaStFfS+Dm9sjF5YJRy5fqwARAMzkvS2AGNHlGLXFIZbEpGeUL
+        zlLHHYo67uL0C65KNFkQYQDShWYMd9attMMTfKdAA9I0/XM93ez4lqQpzLdxQWvqjcenSTysqVcV
+        rjFuKKCjjRoGWthx/LSRAb8PQOOJl5g2aYdxvRO0HqkWCzhLUnPRBwJxC4U2NeFZtlOZfvIvOrUL
+        UnJLhPcTS5kmwqlTVUmr13sGnfpUZ5AscLtTFLB4tnK5+IO4n4zgZ+zQk9lWnIz68SBIkqEDgmia
+        Y4dt06Fn4EGe5XOlc6XSXbTZ3eP5R3F+PvvxOryZ/Ur+s6KDmmuL4P353dW9uL8Kze8fXyzvEA1n
+        fHfpjFeDm+gyfMF007UT5tISarebu1cU6GRM7Vf5P1CqwV9CtIxhohlpx4pYq/m8sqw9b+82oyrt
+        rlfX9aXbzy11fG6qrEw73GtmMXHbwJoXAd5+dZqWZO1/K6Jh7WuCuiLuP1h91dz/3tsP3q73fVS/
+        GIhQGdzwKq2o3aOxLUQV3J8FhpUS3aMBigIOghdNsc97fFEzTf0QcC+Ger+2nAgyvt0vUoFLx/ZY
+        MwfCbgtTaCmmgJhl6cuXuiDGwlan39Lc/APidM3OjgkAAA==
+    headers:
+      access-control-allow-headers: [Content-Type]
+      access-control-allow-methods: ['PUT, GET, POST, DELETE, OPTIONS']
+      access-control-allow-origin: ['*']
+      access-control-max-age: ['86400']
+      cache-control: [max-age=0]
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-length: ['1117']
+      content-type: [application/json;charset=UTF-8]
+      date: ['Wed, 03 Sep 2014 19:27:19 GMT']
+      etag: [1d274be3e7c14dd6c3dec8421a4c4f44]
+      vary: ['Accept,Accept-Encoding']
+      x-api-name: [syi-api]
+      x-api-version: ['1.00']
+      x-gav: [master]
+      x-libra-upstreamhost: [172.16.108.203]
+      x-nginx-host: [e-000017f6]
+      x-nginx-pool: [items-api-webserver-read-master]
+      x-nginx-upstreamhost: ['172.16.23.221:80']
+      x-request-id: [f7f64d25-82aa-49c1-88dd-cdcb13709421]
+    status: {code: 200, message: OK}
+version: 1

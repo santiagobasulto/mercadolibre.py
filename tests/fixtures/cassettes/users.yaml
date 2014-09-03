@@ -1,0 +1,48 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Charset: [utf-8]
+      Accept-Encoding: ['gzip, deflate']
+      Content-type: [application/json]
+      User-Agent: [mercadolibre.py]
+    method: GET
+    uri: https://api.mercadolibre.com:443/users/me/?access_token=APP_USR-554056882653189-090315-a4b5c6abb23a6633c40774301c2e28a5__M_F__-165949089
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/61UTU/jMBD9K8jntjj0Y2lOWy0ckBa0Qr0hZBlnmlo4dtZ2Ct2q/31nnKSUjxVa
+        idxm/Pzy3sx4dkwXLM9m0/lkzs/nA2a1erSyApaz5XJ2no2n39iAeSh1iF5G7awoZKTjM55Nhnw+
+        5OMln+fZOB/PRpzzIZ/knOOdlfYhip4LQsScke9SyjU2+q0gHWxxixmopDYYRASIJoAXU+Tls+nk
+        O6UoM1KuQqQuwEa90ioJY/mOxW1N3Bc3V3hsm+oBPIZZ+7H9gMmi8BACYUNsjSxuhz9IiI5bjH5J
+        A75y7AiapJ4s2vAkOxvj4R9dC+UKup9NsglR12tngYilB9kf8uytkGGSgjafI9iQdDMMN+DRCWAV
+        VtIEIKkmgrdobQPiQ+5j5reEeD+VriuIdb6SBkFRlujo7ijRV5l1N7RdOXFQc49Nc6VjuW2MQY9O
+        24gEGecDFnSEtm/XPxd4vQbi1PYRM+sY6/z0FFMrbUYVeCULZ/SDB+rdSPrTo/EKa13X2paiQmNJ
+        nmpCTC22LopQgzqoCWCwQQKekVqDVeTu6mZ5eXt9eXG1WF6yA8RD3cTDZBjYgElqeydPiOmgNApN
+        6I9w0G2Qim6mQaE/ObK5xkfgvFZUNhexfDmnAa5qA5E6R5FESaYL6MHYsuVwWC3sZMpbKOVR0OAP
+        iWu/x649NNt32ntS8VoZ/y+prbcjtV3iIHj3GlnLvlg0Sxa9fAaiXm0his+gRKdjV+5kuq//rp2p
+        PmTkDMuEM4h20vgb455YHn0D5KWdFpwKXVVQaPyvqOW2wq1AYA+/G+0PT4rWmAypUHf3Xam/nJMG
+        6uuFaoPPqvw3L2K6J1bL0omohFQK6tSGFnp8jGe0dPvdgDODP0vLoEOB3WgX0tqIL0wfiu8EK2dx
+        3+Op6LZ3v8QU2tLJJEJCU/XPJKXFy6OkFTJl+/1fbftpdZEGAAA=
+    headers:
+      access-control-allow-headers: [Content-Type]
+      access-control-allow-methods: ['PUT, GET, POST, DELETE, OPTIONS']
+      access-control-allow-origin: ['*']
+      access-control-max-age: ['86400']
+      cache-control: [max-age=60]
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-length: ['722']
+      content-type: [application/json;charset=UTF-8]
+      date: ['Wed, 03 Sep 2014 19:27:23 GMT']
+      etag: [99ed881cfec98bfe7b68b8ad742ea4af]
+      vary: ['Accept,Accept-Encoding']
+      x-gav: [master]
+      x-libra-upstreamhost: [172.16.149.170]
+      x-nginx-host: [e-00001cef]
+      x-nginx-pool: [users-api-webserver-read-master]
+      x-nginx-upstreamhost: ['172.16.23.220:80']
+      x-request-id: [91a46c11-c179-419f-90c7-9e5b5e7e6edc]
+    status: {code: 200, message: OK}
+version: 1

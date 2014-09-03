@@ -21,7 +21,7 @@ data = {
     "condition": "new",
     "warranty": "Garantia oficial HP Argentina.",
 
-    "description": "Super description <img src={img} />".format(img=img),
+    "description": "Super description",
     "pictures": [
         {"source": "http://mla-s2-p.mlstatic.com/pantalla-display-lenovo-g450-460-470-140-led-hd-wide-4484-MLA4914380959_082013-O.jpg"},
     ],
