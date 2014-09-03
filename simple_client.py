@@ -24,6 +24,13 @@ class State(object):
         self.access_token = None
         self.site_id = None
 
+    def __repr__(self):
+        return u"App ID: {0}\nApp secret: {1}".format(
+            self.app_id, self.app_secret
+        )
+
+    __str__ = __repr__
+
 pass_state = click.make_pass_decorator(State, ensure=True)
 
 
@@ -154,7 +161,7 @@ def me(state, **kwargs):
         access_token=state.access_token)
 
     me = ml.me()
-    click.echo("Test user created.")
+    click.echo("This is your user information.")
     log_api_object(me, ['id', 'nickname', 'email'])
     click.echo("")
 

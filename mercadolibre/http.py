@@ -17,7 +17,7 @@ def default_headers():
 
 
 class Ssl3HttpAdapter(HTTPAdapter):
-    """"Transport adapter" that allows us to use SSLv3.
+    """"Transport adapter that allows us to use SSLv3.
     Originally derived from requests docs, this allows us to overcome
     MercadoLibre limitations with a poorly implemented SSL Setup:
 
@@ -45,7 +45,6 @@ class MercadoLibreSession(requests.Session):
             kwargs['params'] = params
 
         self.mount(config.API_ROOT, Ssl3HttpAdapter())
-
         response = super(MercadoLibreSession, self).request(*args, **kwargs)
 
         return response
