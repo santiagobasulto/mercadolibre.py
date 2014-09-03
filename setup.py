@@ -44,7 +44,8 @@ setup(
         'pytest==2.6.1',
         'pytest-cov==1.8.0',
         'six==1.7.3',
-        'mock==1.0.1'
+        'mock==1.0.1',
+        'vcrpy==1.0.3'
     ],
     license='MIT',
     zip_safe=False,
