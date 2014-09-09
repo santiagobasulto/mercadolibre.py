@@ -27,6 +27,17 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 
+def extract_requirements(lines):
+    return [l for l in lines if
+            l and not l.startswith('-r ') and not l == '\n']
+
+
+with open('requirements.txt') as f:
+    requirements = extract_requirements(f.readlines())
+
+with open('requirements-dev.txt') as f:
+    requirements_dev = extract_requirements(f.readlines())
+
 
 setup(
     name='mercadolibre.py',
@@ -37,16 +48,8 @@ setup(
     packages=['mercadolibre'],
     url='https://github.com/santiagobasulto/mercadolibre.py',
     include_package_data=True,
-    install_requires=['requests>=2.0'],
-    tests_require=[
-        'cov-core==1.14.0',
-        'coverage==3.7.1',
-        'pytest==2.6.1',
-        'pytest-cov==1.8.0',
-        'six==1.7.3',
-        'mock==1.0.1',
-        'vcrpy==1.0.3'
-    ],
+    install_requires=requirements,
+    tests_require=requirements_dev,
     license='MIT',
     zip_safe=False,
     cmdclass={'test': PyTest},
