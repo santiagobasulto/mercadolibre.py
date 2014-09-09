@@ -1,10 +1,10 @@
 import os
 import sys
 
-VERSION = '0.1.0'
-
 from setuptools import setup
 from setuptools.command.test import test as TestCommand
+
+import mercadolibre
 
 
 class PyTest(TestCommand):
@@ -28,7 +28,7 @@ class PyTest(TestCommand):
 
 
 def extract_requirements(lines):
-    return [l for l in lines if
+    return [l.replace('\n', '') for l in lines if
             l and not l.startswith('-r ') and not l == '\n']
 
 
@@ -41,12 +41,15 @@ with open('requirements-dev.txt') as f:
 
 setup(
     name='mercadolibre.py',
-    version=VERSION,
+    version=mercadolibre.__version__,
     description='Mercadolibre Python SDK (for humans)',
     author='Santiago Basulto',
     author_email="santiago.basulto@gmail.com",
     packages=['mercadolibre'],
     url='https://github.com/santiagobasulto/mercadolibre.py',
+    download_url=("https://github.com/santiagobasulto/"
+                  "mercadolibre.py/tarball/"
+                  "{version}".format(version=mercadolibre.__version__)),
     include_package_data=True,
     install_requires=requirements,
     tests_require=requirements_dev,
@@ -54,13 +57,14 @@ setup(
     zip_safe=False,
     cmdclass={'test': PyTest},
     classifiers=(
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        'License :: OSI Approved :: Apache Software License',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
     ),
 )
