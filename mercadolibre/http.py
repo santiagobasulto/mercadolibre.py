@@ -45,6 +45,7 @@ class MercadoLibreSession(requests.Session):
             kwargs['params'] = params
 
         self.mount(config.API_ROOT, Ssl3HttpAdapter())
+        kwargs['verify'] = True
         response = super(MercadoLibreSession, self).request(*args, **kwargs)
 
         return response
