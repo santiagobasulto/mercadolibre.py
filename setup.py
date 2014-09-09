@@ -4,7 +4,7 @@ import sys
 from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
-import mercadolibre
+VERSION = "0.1.5"
 
 
 class PyTest(TestCommand):
@@ -34,7 +34,7 @@ def extract_requirements(lines):
 
 setup(
     name='mercadolibre.py',
-    version=mercadolibre.__version__,
+    version=VERSION,
     description='Mercadolibre Python SDK (for humans)',
     author='Santiago Basulto',
     author_email="santiago.basulto@gmail.com",
@@ -42,7 +42,7 @@ setup(
     url='https://github.com/santiagobasulto/mercadolibre.py',
     download_url=("https://github.com/santiagobasulto/"
                   "mercadolibre.py/tarball/"
-                  "{version}".format(version=mercadolibre.__version__)),
+                  "{version}".format(version=VERSION)),
     include_package_data=True,
     install_requires=['requests>=2.0'],
     tests_require=[
