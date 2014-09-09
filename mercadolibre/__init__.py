@@ -10,7 +10,7 @@ See http://mercadolibre-py.readthedocs.org/ for documentation.
 
 __title__ = 'mercadolibre.py'
 __author__ = 'Santiago Basulto'
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 __build__ = 0x000101
 __license__ = 'MIT'
 __copyright__ = ''
