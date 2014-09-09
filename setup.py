@@ -51,7 +51,7 @@ setup(
                   "mercadolibre.py/tarball/"
                   "{version}".format(version=mercadolibre.__version__)),
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=['requests>=2.0'],
     tests_require=requirements_dev,
     license='MIT',
     zip_safe=False,
