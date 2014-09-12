@@ -46,7 +46,7 @@ class MercadoLibre(object):
 
     def build_authorization_url(self, redirect_url):
         params = {
-            "client_id": self.app_id,
+            "client_id": self.credentials.app_id,
             "response_type": "code",
             "redirect_uri": redirect_url,
         }
@@ -55,8 +55,8 @@ class MercadoLibre(object):
     def refresh_access_token(self, refresh_token):
         params = {
             'grant_type': 'refresh_token',
-            'client_id': self.app_id,
-            'client_secret': self.app_secret,
+            'client_id': self.credentials.app_id,
+            'client_secret': self.credentials.app_secret,
             'refresh_token': refresh_token
         }
         response = self.session.post(config.OAUTH_URL, params=params)
@@ -70,8 +70,8 @@ class MercadoLibre(object):
     def authenticate(self, code, redirect_uri):
         params = {
             'grant_type': 'authorization_code',
-            'client_id': self.app_id,
-            'client_secret': self.app_secret,
+            'client_id': self.credentials.app_id,
+            'client_secret': self.credentials.app_secret,
             'code': code,
             'redirect_uri': redirect_uri
         }
