@@ -1,40 +1,36 @@
 {
-    "listing_type_id": "bronze", 
-    "warranty": "Garantia oficial HP Argentina.", 
-    "condition": "new", 
+    "listing_type_id": "bronze",
+    "warranty": "NO! ES DE TESTING!",
+    "condition": "new",
     "pictures": [
         {
-            "source": "http://mla-s2-p.mlstatic.com/pantalla-display-lenovo-g450-460-470-140-led-hd-wide-4484-MLA4914380959_082013-O.jpg"
+            "source": "http://regmedia.co.uk/2013/01/06/lenovo_ideapad_yoga_13_ultrabook_1.jpg"
         }
-    ], 
-    "accepts_mercadopago": true, 
-    "price": 188, 
-    "description": "Super description", 
-    "currency_id": "ARS", 
-    "available_quantity": 3, 
-    "title": "TEST HP CARTUCHO 122 COLOR (CH562HL)", 
-    "buying_mode": "buy_it_now", 
+    ],
+    "accepts_mercadopago": true,
+    "price": 9999,
+    "description": "No compres este artículo, es de testing. PLEASE DON'T BUY, THIS IS JUST FOR TESTING.",
+    "currency_id": "ARS",
+    "available_quantity": 3,
+    "title": "Notebook Lenovo Dual Core 15.6¨ - Prueba",
+    "buying_mode": "buy_it_now",
     "non_mercado_pago_payment_methods": [
         {
-            "description": "Transferencia bancaria", 
-            "id": "MLATB", 
-            "type": "G"
-        }, 
+            "id": "MLATB"
+        },
         {
-            "description": "Tarjeta de cr\u00e9dito", 
-            "id": "MLAOT", 
-            "type": "N"
-        }, 
+            "id": "MLAOT"
+        },
         {
-            "description": "Acordar con el comprador", 
-            "id": "MLAWC", 
-            "type": "G"
-        }, 
+            "id": "MLAWC"
+        },
         {
-            "description": "Efectivo", 
-            "id": "MLAMO", 
-            "type": "G"
+            "id": "MLAMO"
         }
-    ], 
-    "category_id": "MLA32198"
+    ],
+    "category_id": "MLA54778",
+    "shipping": {
+      "mode": "me2",
+      "local_pick_up": true
+    }
 }
