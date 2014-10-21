@@ -162,7 +162,7 @@ def me(state, **kwargs):
 
     me = ml.me()
     click.echo("This is your user information.")
-    log_api_object(me, ['id', 'nickname', 'email'])
+    log_api_object(me, ['id', 'nickname', 'email', 'shipping_modes'])
     click.echo("")
 
 
