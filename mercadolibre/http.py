@@ -39,9 +39,20 @@ class MercadoLibreSession(requests.Session):
         self.credentials = credentials
 
     def request(self, *args, **kwargs):
+        """
+        :param suppress_access_token: Will avoid appending the access token
+            to the request.
+        :param args: Accepts the same arguments as `requests.Session.request`
+        :param kwargs: Accepts the same arguments as `requests.Session.request`
+        :return: Same as `requests.Session.request`
+        """
         params = kwargs.get('params', {})
+
         if 'access_token' not in params and self.credentials:
-            params.update({'access_token': self.credentials.access_token})
+            kwargs.setdefault('suppress_access_token', False)
+            if not kwargs['suppress_access_token']:
+                params.update({'access_token': self.credentials.access_token})
+            del kwargs['suppress_access_token']
             kwargs['params'] = params
 
         self.mount(config.API_ROOT, Ssl3HttpAdapter())

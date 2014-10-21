@@ -59,7 +59,10 @@ class MercadoLibre(object):
             'client_secret': self.credentials.app_secret,
             'refresh_token': refresh_token
         }
-        response = self.session.post(config.OAUTH_URL, params=params)
+
+        response = self.session.post(
+            config.OAUTH_URL, params=params, suppress_access_token=True)
+
         if not response.ok:
             response.raise_for_status()
         content = response.json()

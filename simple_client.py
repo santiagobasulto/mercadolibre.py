@@ -167,6 +167,23 @@ def me(state, **kwargs):
 
 
 @main.command()
+@click.option('--refresh-token', help="Refresh token")
+@common_options
+@pass_state
+def refresh_token(state, refresh_token, **kwargs):
+    if not refresh_token:
+        raise click.UsageError("This method requires a REFRESH TOKEN")
+
+    ml = api.login(
+        app_id=state.app_id, app_secret=state.app_secret)
+
+    (access_token, refresh_token) = ml.refresh_access_token(refresh_token)
+    click.echo("Tokens generated successfully")
+    click.echo("\t Access Token: {}".format(access_token))
+    click.echo("\t Refresh Token: {}".format(refresh_token))
+
+
+@main.command()
 @click.option('-q', '--query', help="The querystring to search for")
 @click.option('-c', '--category-id',
               help="The ID of the category to restrict your search")
